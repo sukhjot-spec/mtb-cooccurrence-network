@@ -1,0 +1,646 @@
+sample_id,gene,locus_tag,change,nucleotide_change,type,drug,confidence,depth,freq,pos,is_RRDR,sample_MDR,sample_drtype
+SRR30673194,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,84,0.988095238095238,1472359,0,1,MDR-TB
+SRR30673194,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,84,0.988095238095238,1472359,0,1,MDR-TB
+SRR30673194,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,84,0.988095238095238,1472359,0,1,MDR-TB
+SRR30673198,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,75,0.9866666666666668,1472362,0,1,MDR-TB
+SRR30673198,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,75,0.9866666666666668,1472362,0,1,MDR-TB
+SRR30673207,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,70,1.0,1472359,0,1,XDR-TB
+SRR30673207,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,70,1.0,1472359,0,1,XDR-TB
+SRR30673207,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,70,1.0,1472359,0,1,XDR-TB
+SRR30673210,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,121,1.0,1472362,0,1,Pre-XDR-TB
+SRR30673210,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,121,1.0,1472362,0,1,Pre-XDR-TB
+SRR30673211,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,165,0.9757575757575756,1472359,0,1,MDR-TB
+SRR30673211,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,165,0.9757575757575756,1472359,0,1,MDR-TB
+SRR30673211,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,165,0.9757575757575756,1472359,0,1,MDR-TB
+SRR30673219,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,130,1.0,1472362,0,1,MDR-TB
+SRR30673219,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,130,1.0,1472362,0,1,MDR-TB
+SRR30673550,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,56,1.0,1472359,0,1,Pre-XDR-TB
+SRR30673550,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,56,1.0,1472359,0,1,Pre-XDR-TB
+SRR30673550,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,56,1.0,1472359,0,1,Pre-XDR-TB
+SRR30673555,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,99,1.0,1472359,0,1,MDR-TB
+SRR30673555,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,99,1.0,1472359,0,1,MDR-TB
+SRR30673555,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,99,1.0,1472359,0,1,MDR-TB
+SRR30673561,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,80,1.0125,1472362,0,1,MDR-TB
+SRR30673561,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,80,1.0125,1472362,0,1,MDR-TB
+SRR30673573,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,119,1.0,1472359,0,1,MDR-TB
+SRR30673573,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,119,1.0,1472359,0,1,MDR-TB
+SRR30673573,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,119,1.0,1472359,0,1,MDR-TB
+SRR30673661,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,144,1.0,1472362,0,1,MDR-TB
+SRR30673661,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,144,1.0,1472362,0,1,MDR-TB
+SRR30673672,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,169,1.0,1472362,0,1,Pre-XDR-TB
+SRR30673672,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,169,1.0,1472362,0,1,Pre-XDR-TB
+SRR30673688,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,64,1.0,1472359,0,1,MDR-TB
+SRR30673688,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,64,1.0,1472359,0,1,MDR-TB
+SRR30673688,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,64,1.0,1472359,0,1,MDR-TB
+SRR30673694,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,103,1.0,1472359,0,1,XDR-TB
+SRR30673694,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,103,1.0,1472359,0,1,XDR-TB
+SRR30673694,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,103,1.0,1472359,0,1,XDR-TB
+SRR30673704,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,55,1.0,1472359,0,1,XDR-TB
+SRR30673704,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,55,1.0,1472359,0,1,XDR-TB
+SRR30673704,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,55,1.0,1472359,0,1,XDR-TB
+SRR30673705,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,62,1.0,1472362,0,1,Pre-XDR-TB
+SRR30673705,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,62,1.0,1472362,0,1,Pre-XDR-TB
+SRR30673708,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,157,1.0,1472359,0,1,MDR-TB
+SRR30673708,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,157,1.0,1472359,0,1,MDR-TB
+SRR30673708,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,157,1.0,1472359,0,1,MDR-TB
+SRR30673725,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,71,1.0,1472359,0,1,MDR-TB
+SRR30673725,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,71,1.0,1472359,0,1,MDR-TB
+SRR30673725,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,71,1.0,1472359,0,1,MDR-TB
+SRR30673726,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,139,1.0,1472359,0,1,MDR-TB
+SRR30673726,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,139,1.0,1472359,0,1,MDR-TB
+SRR30673726,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,139,1.0,1472359,0,1,MDR-TB
+SRR30673727,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,98,1.0,1472362,0,1,MDR-TB
+SRR30673727,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,98,1.0,1472362,0,1,MDR-TB
+SRR32526016,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,18,0.9444444444444444,1472359,0,0,XDR-TB
+SRR32526016,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,18,0.9444444444444444,1472359,0,0,XDR-TB
+SRR32526016,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,18,0.9444444444444444,1472359,0,0,XDR-TB
+SRR32526079,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,39,0.9743589743589745,1472359,0,0,Other
+SRR32526079,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,39,0.9743589743589745,1472359,0,0,Other
+SRR32526079,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,39,0.9743589743589745,1472359,0,0,Other
+SRR32526081,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,131,1.0,1472359,0,1,MDR-TB
+SRR32526081,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,131,1.0,1472359,0,1,MDR-TB
+SRR32526081,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,131,1.0,1472359,0,1,MDR-TB
+SRR32526192,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,75,1.0133333333333334,1472362,0,1,MDR-TB
+SRR32526192,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,75,1.0133333333333334,1472362,0,1,MDR-TB
+SRR32526207,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,157,1.0,1472362,0,1,MDR-TB
+SRR32526207,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,157,1.0,1472362,0,1,MDR-TB
+SRR32526211,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,32,0.96875,1472362,0,1,MDR-TB
+SRR32526211,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,32,0.96875,1472362,0,1,MDR-TB
+SRR32526262,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,169,0.9940828402366864,1472359,0,1,XDR-TB
+SRR32526262,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,169,0.9940828402366864,1472359,0,1,XDR-TB
+SRR32526262,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,169,0.9940828402366864,1472359,0,1,XDR-TB
+SRR32526297,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,18,0.8888888888888888,1472359,0,0,RR-TB
+SRR32526297,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,18,0.8888888888888888,1472359,0,0,RR-TB
+SRR32526297,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,18,0.8888888888888888,1472359,0,0,RR-TB
+SRR32526360,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,259,0.8571428571428571,1472359,0,0,Other
+SRR32526360,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,259,0.8571428571428571,1472359,0,0,Other
+SRR32526360,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,259,0.8571428571428571,1472359,0,0,Other
+SRR32526439,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,264,0.9924242424242424,1472362,0,0,Other
+SRR32526439,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,264,0.9924242424242424,1472362,0,0,Other
+SRR32526583,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,155,0.967741935483871,1472359,0,1,MDR-TB
+SRR32526583,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,155,0.967741935483871,1472359,0,1,MDR-TB
+SRR32526583,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,155,0.967741935483871,1472359,0,1,MDR-TB
+SRR32861839,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,35,1.0,1472359,0,1,MDR-TB
+SRR32861839,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,35,1.0,1472359,0,1,MDR-TB
+SRR32861839,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,35,1.0,1472359,0,1,MDR-TB
+SRR33383907,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,76,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383907,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,76,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383907,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,76,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383908,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,118,1.0,1472359,0,1,MDR-TB
+SRR33383908,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,118,1.0,1472359,0,1,MDR-TB
+SRR33383908,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,118,1.0,1472359,0,1,MDR-TB
+SRR33383925,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,232,0.168103448275862,1472362,0,1,XDR-TB
+SRR33383925,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,232,0.168103448275862,1472362,0,1,XDR-TB
+SRR33383930,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,70,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383930,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,70,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383930,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,70,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383940,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,57,0.9824561403508772,1472359,0,1,MDR-TB
+SRR33383940,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,57,0.9824561403508772,1472359,0,1,MDR-TB
+SRR33383940,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,57,0.9824561403508772,1472359,0,1,MDR-TB
+SRR33383943,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,118,1.0,1472359,0,1,XDR-TB
+SRR33383943,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,118,1.0,1472359,0,1,XDR-TB
+SRR33383943,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,118,1.0,1472359,0,1,XDR-TB
+SRR33383946,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383946,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383946,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383952,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,56,1.0,1472359,0,1,MDR-TB
+SRR33383952,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,56,1.0,1472359,0,1,MDR-TB
+SRR33383952,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,56,1.0,1472359,0,1,MDR-TB
+SRR33383956,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383956,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383956,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383962,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,73,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383962,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,73,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383962,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,73,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383963,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,54,1.0,1472359,0,1,XDR-TB
+SRR33383963,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,54,1.0,1472359,0,1,XDR-TB
+SRR33383963,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,54,1.0,1472359,0,1,XDR-TB
+SRR33383968,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,65,1.0,1472362,0,1,Pre-XDR-TB
+SRR33383968,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,65,1.0,1472362,0,1,Pre-XDR-TB
+SRR33383969,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,90,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383969,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,90,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383969,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,90,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383978,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,63,1.0,1472359,0,1,XDR-TB
+SRR33383978,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,63,1.0,1472359,0,1,XDR-TB
+SRR33383978,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,63,1.0,1472359,0,1,XDR-TB
+SRR33383979,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,68,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383979,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,68,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383979,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,68,1.0,1472359,0,1,Pre-XDR-TB
+SRR33383980,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,109,0.9908256880733946,1472359,0,1,XDR-TB
+SRR33383980,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,109,0.9908256880733946,1472359,0,1,XDR-TB
+SRR33383980,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,109,0.9908256880733946,1472359,0,1,XDR-TB
+SRR33384002,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,73,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384002,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,73,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384002,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,73,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384006,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,76,1.013157894736842,1472359,0,1,Pre-XDR-TB
+SRR33384006,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,76,1.013157894736842,1472359,0,1,Pre-XDR-TB
+SRR33384006,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,76,1.013157894736842,1472359,0,1,Pre-XDR-TB
+SRR33384013,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,145,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384013,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,145,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384013,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,145,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384024,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,189,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384024,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,189,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384024,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,189,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384035,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384035,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384035,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384037,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,148,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384037,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,148,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384037,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,148,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384046,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,184,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384046,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,184,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384046,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,184,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384049,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,50,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384049,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,50,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384049,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,50,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384052,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,48,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384052,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,48,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384052,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,48,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384055,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,97,0.9587628865979382,1472362,0,1,XDR-TB
+SRR33384055,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,97,0.9587628865979382,1472362,0,1,XDR-TB
+SRR33384057,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,73,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384057,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,73,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384066,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,55,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384066,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,55,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384066,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,55,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384076,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,132,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384076,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,132,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384087,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,109,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384087,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,109,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384087,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,109,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384088,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,98,1.0,1472362,0,1,XDR-TB
+SRR33384088,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,98,1.0,1472362,0,1,XDR-TB
+SRR33384090,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,86,1.0,1472362,0,1,XDR-TB
+SRR33384090,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,86,1.0,1472362,0,1,XDR-TB
+SRR33384091,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384091,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384091,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384093,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,67,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384093,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,67,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384093,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,67,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384097,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,64,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384097,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,64,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384097,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,64,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384101,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,49,0.979591836734694,1472359,0,1,MDR-TB
+SRR33384101,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,49,0.979591836734694,1472359,0,1,MDR-TB
+SRR33384101,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,49,0.979591836734694,1472359,0,1,MDR-TB
+SRR33384108,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,99,1.0,1472362,0,1,XDR-TB
+SRR33384108,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,99,1.0,1472362,0,1,XDR-TB
+SRR33384120,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,79,1.0,1472359,0,1,MDR-TB
+SRR33384120,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,79,1.0,1472359,0,1,MDR-TB
+SRR33384120,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,79,1.0,1472359,0,1,MDR-TB
+SRR33384128,rrs,EBG00000313325,n.906A>G,n.906A>G,non_coding_transcript_exon_variant,amikacin,Not assoc w R,143,1.006993006993007,1472751,0,1,MDR-TB
+SRR33384128,rrs,EBG00000313325,n.906A>G,n.906A>G,non_coding_transcript_exon_variant,kanamycin,Not assoc w R,143,1.006993006993007,1472751,0,1,MDR-TB
+SRR33384134,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,118,1.0084745762711864,1472359,0,1,XDR-TB
+SRR33384134,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,118,1.0084745762711864,1472359,0,1,XDR-TB
+SRR33384134,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,118,1.0084745762711864,1472359,0,1,XDR-TB
+SRR33384138,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,107,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384138,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,107,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384138,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,107,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384144,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,77,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384144,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,77,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384144,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,77,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384145,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,79,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384145,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,79,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384146,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,102,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384146,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,102,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384147,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,87,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384147,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,87,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384147,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,87,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384148,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,114,1.0,1472359,0,1,XDR-TB
+SRR33384148,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,114,1.0,1472359,0,1,XDR-TB
+SRR33384148,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,114,1.0,1472359,0,1,XDR-TB
+SRR33384151,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,101,0.8217821782178217,1472359,0,1,Pre-XDR-TB
+SRR33384151,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,101,0.8217821782178217,1472359,0,1,Pre-XDR-TB
+SRR33384151,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,101,0.8217821782178217,1472359,0,1,Pre-XDR-TB
+SRR33384153,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,114,1.0087719298245614,1472359,0,1,Pre-XDR-TB
+SRR33384153,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,114,1.0087719298245614,1472359,0,1,Pre-XDR-TB
+SRR33384153,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,114,1.0087719298245614,1472359,0,1,Pre-XDR-TB
+SRR33384155,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,129,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384155,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,129,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384155,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,129,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384158,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,109,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384158,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,109,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384158,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,109,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384164,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,116,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384164,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,116,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384164,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,116,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384166,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,113,0.9823008849557522,1472359,0,1,Pre-XDR-TB
+SRR33384166,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,113,0.9823008849557522,1472359,0,1,Pre-XDR-TB
+SRR33384166,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,113,0.9823008849557522,1472359,0,1,Pre-XDR-TB
+SRR33384168,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,94,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384168,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,94,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384168,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,94,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384169,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,173,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384169,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,173,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384169,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,173,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384175,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,180,1.0,1472359,0,1,MDR-TB
+SRR33384175,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,180,1.0,1472359,0,1,MDR-TB
+SRR33384175,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,180,1.0,1472359,0,1,MDR-TB
+SRR33384179,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,158,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384179,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,158,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384179,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,158,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384183,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,62,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384183,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,62,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384183,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,62,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384184,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,99,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384184,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,99,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384184,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,99,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384192,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,95,1.0,1472359,0,1,XDR-TB
+SRR33384192,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,95,1.0,1472359,0,1,XDR-TB
+SRR33384192,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,95,1.0,1472359,0,1,XDR-TB
+SRR33384197,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,96,1.0,1472359,0,1,XDR-TB
+SRR33384197,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,96,1.0,1472359,0,1,XDR-TB
+SRR33384197,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,96,1.0,1472359,0,1,XDR-TB
+SRR33384199,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,91,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384199,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,91,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384199,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,91,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384214,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,144,1.0069444444444444,1472359,0,1,Pre-XDR-TB
+SRR33384214,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,144,1.0069444444444444,1472359,0,1,Pre-XDR-TB
+SRR33384214,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,144,1.0069444444444444,1472359,0,1,Pre-XDR-TB
+SRR33384224,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,172,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384224,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,172,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384224,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,172,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384227,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,155,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384227,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,155,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384227,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,155,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384229,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,84,1.0,1472362,0,1,XDR-TB
+SRR33384229,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,84,1.0,1472362,0,1,XDR-TB
+SRR33384231,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,86,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384231,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,86,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384231,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,86,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384232,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,98,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384232,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,98,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384232,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,98,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384233,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,113,1.0,1472359,0,1,XDR-TB
+SRR33384233,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,113,1.0,1472359,0,1,XDR-TB
+SRR33384233,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,113,1.0,1472359,0,1,XDR-TB
+SRR33384234,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,138,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384234,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,138,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384234,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,138,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384238,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,86,1.0,1472359,0,1,XDR-TB
+SRR33384238,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,86,1.0,1472359,0,1,XDR-TB
+SRR33384238,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,86,1.0,1472359,0,1,XDR-TB
+SRR33384239,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,125,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384239,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,125,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384239,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,125,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384240,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,43,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384240,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,43,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384240,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,43,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384243,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,143,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384243,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,143,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384243,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,143,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384245,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,193,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384245,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,193,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384245,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,193,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384247,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,212,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384247,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,212,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384247,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,212,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384251,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,170,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384251,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,170,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384251,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,170,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384253,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,211,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384253,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,211,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384253,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,211,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384261,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,173,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384261,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,173,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384262,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,233,0.2103004291845493,1472359,0,1,XDR-TB
+SRR33384262,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,233,0.2103004291845493,1472359,0,1,XDR-TB
+SRR33384262,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,233,0.2103004291845493,1472359,0,1,XDR-TB
+SRR33384273,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,242,0.2148760330578512,1472359,0,1,Pre-XDR-TB
+SRR33384273,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,242,0.2148760330578512,1472359,0,1,Pre-XDR-TB
+SRR33384273,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,242,0.2148760330578512,1472359,0,1,Pre-XDR-TB
+SRR33384276,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,52,0.903846153846154,1472359,0,1,Pre-XDR-TB
+SRR33384276,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,52,0.903846153846154,1472359,0,1,Pre-XDR-TB
+SRR33384276,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,52,0.903846153846154,1472359,0,1,Pre-XDR-TB
+SRR33384282,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,108,1.0092592592592593,1472359,0,1,Pre-XDR-TB
+SRR33384282,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,108,1.0092592592592593,1472359,0,1,Pre-XDR-TB
+SRR33384282,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,108,1.0092592592592593,1472359,0,1,Pre-XDR-TB
+SRR33384283,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,94,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384283,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,94,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384283,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,94,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384284,eis,Rv2416c,c.-10G>A,c.-10G>A,upstream_gene_variant,amikacin,Not assoc w R,90,1.0,2715342,0,1,Pre-XDR-TB
+SRR33384285,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,98,0.9897959183673468,1472359,0,1,MDR-TB
+SRR33384285,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,98,0.9897959183673468,1472359,0,1,MDR-TB
+SRR33384285,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,98,0.9897959183673468,1472359,0,1,MDR-TB
+SRR33384286,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,209,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384286,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,209,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384286,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,209,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384307,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,187,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384307,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,187,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384307,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,187,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384309,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,149,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384309,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,149,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384309,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,149,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384313,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,128,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384313,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,128,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384313,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,128,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384315,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,176,0.9943181818181818,1472359,0,1,XDR-TB
+SRR33384315,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,176,0.9943181818181818,1472359,0,1,XDR-TB
+SRR33384315,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,176,0.9943181818181818,1472359,0,1,XDR-TB
+SRR33384316,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,150,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384316,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,150,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384316,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,150,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384317,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,163,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384317,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,163,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384317,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,163,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384327,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,135,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384327,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,135,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384327,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,135,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384344,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,96,1.0,1472359,0,1,XDR-TB
+SRR33384344,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,96,1.0,1472359,0,1,XDR-TB
+SRR33384344,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,96,1.0,1472359,0,1,XDR-TB
+SRR33384345,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384345,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384345,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,74,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384350,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,97,1.0,1472359,0,1,XDR-TB
+SRR33384350,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,97,1.0,1472359,0,1,XDR-TB
+SRR33384350,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,97,1.0,1472359,0,1,XDR-TB
+SRR33384352,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,101,1.0,1472359,0,1,XDR-TB
+SRR33384352,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,101,1.0,1472359,0,1,XDR-TB
+SRR33384352,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,101,1.0,1472359,0,1,XDR-TB
+SRR33384363,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,95,1.0105263157894735,1472359,0,1,Pre-XDR-TB
+SRR33384363,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,95,1.0105263157894735,1472359,0,1,Pre-XDR-TB
+SRR33384363,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,95,1.0105263157894735,1472359,0,1,Pre-XDR-TB
+SRR33384367,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,88,1.0113636363636365,1472359,0,1,Pre-XDR-TB
+SRR33384367,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,88,1.0113636363636365,1472359,0,1,Pre-XDR-TB
+SRR33384367,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,88,1.0113636363636365,1472359,0,1,Pre-XDR-TB
+SRR33384371,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,105,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384371,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,105,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384371,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,105,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384372,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,80,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384372,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,80,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384372,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,80,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384376,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,78,1.0,1472359,0,1,XDR-TB
+SRR33384376,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,78,1.0,1472359,0,1,XDR-TB
+SRR33384376,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,78,1.0,1472359,0,1,XDR-TB
+SRR33384378,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,73,1.0273972602739727,1472362,0,1,Pre-XDR-TB
+SRR33384378,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,73,1.0273972602739727,1472362,0,1,Pre-XDR-TB
+SRR33384389,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,76,1.0,1472359,0,1,XDR-TB
+SRR33384389,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,76,1.0,1472359,0,1,XDR-TB
+SRR33384389,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,76,1.0,1472359,0,1,XDR-TB
+SRR33384390,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,76,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384390,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,76,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384390,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,76,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384392,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,115,0.7739130434782608,1472362,0,1,XDR-TB
+SRR33384392,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,115,0.7739130434782608,1472362,0,1,XDR-TB
+SRR33384396,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,70,1.0,1472359,0,1,MDR-TB
+SRR33384396,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,70,1.0,1472359,0,1,MDR-TB
+SRR33384396,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,70,1.0,1472359,0,1,MDR-TB
+SRR33384399,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,85,1.0,1472359,0,1,XDR-TB
+SRR33384399,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,85,1.0,1472359,0,1,XDR-TB
+SRR33384399,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,85,1.0,1472359,0,1,XDR-TB
+SRR33384411,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,63,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384411,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,63,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384411,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,63,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384414,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,76,0.986842105263158,1472359,0,1,Pre-XDR-TB
+SRR33384414,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,76,0.986842105263158,1472359,0,1,Pre-XDR-TB
+SRR33384414,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,76,0.986842105263158,1472359,0,1,Pre-XDR-TB
+SRR33384416,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,69,1.0,1472362,0,1,MDR-TB
+SRR33384416,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,69,1.0,1472362,0,1,MDR-TB
+SRR33384417,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,81,1.0,1472359,0,1,XDR-TB
+SRR33384417,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,81,1.0,1472359,0,1,XDR-TB
+SRR33384417,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,81,1.0,1472359,0,1,XDR-TB
+SRR33384429,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,77,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384429,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,77,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384429,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,77,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384436,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,89,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384436,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,89,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384443,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,124,1.0,1472362,0,1,XDR-TB
+SRR33384443,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,124,1.0,1472362,0,1,XDR-TB
+SRR33384445,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,140,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384445,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,140,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384445,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,140,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384446,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,129,0.992248062015504,1472362,0,1,Pre-XDR-TB
+SRR33384446,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,129,0.992248062015504,1472362,0,1,Pre-XDR-TB
+SRR33384449,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384449,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384449,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384452,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,81,1.0,1472362,0,1,XDR-TB
+SRR33384452,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,81,1.0,1472362,0,1,XDR-TB
+SRR33384454,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,11,1.0,1472359,0,0,HR-TB
+SRR33384454,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,11,1.0,1472359,0,0,HR-TB
+SRR33384454,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,11,1.0,1472359,0,0,HR-TB
+SRR33384457,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,79,1.0,1472359,0,1,MDR-TB
+SRR33384457,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,79,1.0,1472359,0,1,MDR-TB
+SRR33384457,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,79,1.0,1472359,0,1,MDR-TB
+SRR33384460,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,141,1.0,1472362,0,1,XDR-TB
+SRR33384460,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,141,1.0,1472362,0,1,XDR-TB
+SRR33384461,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,95,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384461,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,95,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384461,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,95,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384463,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384463,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384463,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384464,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,103,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384464,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,103,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384464,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,103,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384469,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384469,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384469,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,121,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384490,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,91,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384490,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,91,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384490,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,91,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384491,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,90,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384491,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,90,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384491,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,90,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384496,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,181,1.0165745856353592,1472359,0,1,Pre-XDR-TB
+SRR33384496,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,181,1.0165745856353592,1472359,0,1,Pre-XDR-TB
+SRR33384496,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,181,1.0165745856353592,1472359,0,1,Pre-XDR-TB
+SRR33384505,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,71,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384505,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,71,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384505,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,71,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384511,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,104,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384511,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,104,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384511,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,104,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384514,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,173,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384514,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,173,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384531,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,157,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384531,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,157,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384531,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,157,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384532,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,136,1.0,1472359,0,1,MDR-TB
+SRR33384532,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,136,1.0,1472359,0,1,MDR-TB
+SRR33384532,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,136,1.0,1472359,0,1,MDR-TB
+SRR33384533,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,190,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384533,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,190,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384533,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,190,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384534,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,176,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384534,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,176,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384534,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,176,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384535,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,161,1.0062111801242235,1472359,0,1,Pre-XDR-TB
+SRR33384535,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,161,1.0062111801242235,1472359,0,1,Pre-XDR-TB
+SRR33384535,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,161,1.0062111801242235,1472359,0,1,Pre-XDR-TB
+SRR33384543,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,144,0.9930555555555556,1472359,0,1,MDR-TB
+SRR33384543,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,144,0.9930555555555556,1472359,0,1,MDR-TB
+SRR33384543,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,144,0.9930555555555556,1472359,0,1,MDR-TB
+SRR33384550,eis,Rv2416c,c.-10G>A,c.-10G>A,upstream_gene_variant,amikacin,Not assoc w R,109,1.0,2715342,0,1,Pre-XDR-TB
+SRR33384559,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,161,1.0,1472359,0,1,MDR-TB
+SRR33384559,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,161,1.0,1472359,0,1,MDR-TB
+SRR33384559,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,161,1.0,1472359,0,1,MDR-TB
+SRR33384560,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,97,1.0,1472359,0,1,XDR-TB
+SRR33384560,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,97,1.0,1472359,0,1,XDR-TB
+SRR33384560,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,97,1.0,1472359,0,1,XDR-TB
+SRR33384561,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,174,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384561,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,174,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384566,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,68,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384566,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,68,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384566,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,68,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384573,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,57,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384573,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,57,1.0,1472362,0,1,Pre-XDR-TB
+SRR33384575,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,161,0.4161490683229814,1472359,0,1,Pre-XDR-TB
+SRR33384575,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,161,0.4161490683229814,1472359,0,1,Pre-XDR-TB
+SRR33384575,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,161,0.4161490683229814,1472359,0,1,Pre-XDR-TB
+SRR33384580,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,69,1.0,1472359,0,1,MDR-TB
+SRR33384580,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,69,1.0,1472359,0,1,MDR-TB
+SRR33384580,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,69,1.0,1472359,0,1,MDR-TB
+SRR33384583,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,83,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384583,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,83,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384583,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,83,1.0,1472359,0,1,Pre-XDR-TB
+SRR33384586,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,101,1.0,1472359,0,1,XDR-TB
+SRR33384586,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,101,1.0,1472359,0,1,XDR-TB
+SRR33384586,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,101,1.0,1472359,0,1,XDR-TB
+SRR33384621,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,94,1.0106382978723405,1472359,0,1,Pre-XDR-TB
+SRR33384621,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,94,1.0106382978723405,1472359,0,1,Pre-XDR-TB
+SRR33384621,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,94,1.0106382978723405,1472359,0,1,Pre-XDR-TB
+SRR33394855,eis,Rv2416c,c.-10G>A,c.-10G>A,upstream_gene_variant,amikacin,Not assoc w R,71,1.0140845070422535,2715342,0,1,Pre-XDR-TB
+SRR33394856,eis,Rv2416c,c.-10G>A,c.-10G>A,upstream_gene_variant,amikacin,Not assoc w R,90,1.0,2715342,0,1,Pre-XDR-TB
+SRR33394857,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,72,1.0,1472359,0,1,MDR-TB
+SRR33394857,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,72,1.0,1472359,0,1,MDR-TB
+SRR33394857,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,72,1.0,1472359,0,1,MDR-TB
+SRR33394858,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,96,1.0,1472359,0,1,XDR-TB
+SRR33394858,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,96,1.0,1472359,0,1,XDR-TB
+SRR33394858,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,96,1.0,1472359,0,1,XDR-TB
+SRR33394860,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,89,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394860,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,89,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394860,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,89,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394862,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,108,1.0,1472362,0,1,XDR-TB
+SRR33394862,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,108,1.0,1472362,0,1,XDR-TB
+SRR33394865,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,144,1.0,1472362,0,1,XDR-TB
+SRR33394865,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,144,1.0,1472362,0,1,XDR-TB
+SRR33394868,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,145,1.006896551724138,1472359,0,1,XDR-TB
+SRR33394868,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,145,1.006896551724138,1472359,0,1,XDR-TB
+SRR33394868,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,145,1.006896551724138,1472359,0,1,XDR-TB
+SRR33394874,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,96,1.0104166666666667,1472362,0,1,MDR-TB
+SRR33394874,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,96,1.0104166666666667,1472362,0,1,MDR-TB
+SRR33394887,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,147,1.0,1472359,0,1,XDR-TB
+SRR33394887,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,147,1.0,1472359,0,1,XDR-TB
+SRR33394887,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,147,1.0,1472359,0,1,XDR-TB
+SRR33394888,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,185,1.0054054054054054,1472359,0,1,MDR-TB
+SRR33394888,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,185,1.0054054054054054,1472359,0,1,MDR-TB
+SRR33394888,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,185,1.0054054054054054,1472359,0,1,MDR-TB
+SRR33394889,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,82,1.0,1472359,0,1,XDR-TB
+SRR33394889,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,82,1.0,1472359,0,1,XDR-TB
+SRR33394889,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,82,1.0,1472359,0,1,XDR-TB
+SRR33394890,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,163,1.0,1472359,0,1,MDR-TB
+SRR33394890,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,163,1.0,1472359,0,1,MDR-TB
+SRR33394890,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,163,1.0,1472359,0,1,MDR-TB
+SRR33394893,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,112,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394893,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,112,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394893,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,112,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394895,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,156,1.0064102564102564,1472362,0,1,Pre-XDR-TB
+SRR33394895,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,156,1.0064102564102564,1472362,0,1,Pre-XDR-TB
+SRR33394896,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,39,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394896,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,39,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394896,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,39,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394898,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394898,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394898,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,106,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394900,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,109,1.0,1472362,0,1,MDR-TB
+SRR33394900,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,109,1.0,1472362,0,1,MDR-TB
+SRR33394902,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,87,1.0,1472359,0,1,XDR-TB
+SRR33394902,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,87,1.0,1472359,0,1,XDR-TB
+SRR33394902,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,87,1.0,1472359,0,1,XDR-TB
+SRR33394903,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,86,1.0,1472359,0,1,XDR-TB
+SRR33394903,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,86,1.0,1472359,0,1,XDR-TB
+SRR33394903,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,86,1.0,1472359,0,1,XDR-TB
+SRR33394905,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,100,0.27,1472359,0,1,Pre-XDR-TB
+SRR33394905,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,100,0.27,1472359,0,1,Pre-XDR-TB
+SRR33394905,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,100,0.27,1472359,0,1,Pre-XDR-TB
+SRR33394908,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,91,1.010989010989011,1472359,0,1,Pre-XDR-TB
+SRR33394908,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,91,1.010989010989011,1472359,0,1,Pre-XDR-TB
+SRR33394908,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,91,1.010989010989011,1472359,0,1,Pre-XDR-TB
+SRR33394916,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,14,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394916,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,14,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394916,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,14,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394917,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,92,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394917,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,92,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394917,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,92,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394918,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,55,1.018181818181818,1472362,0,1,XDR-TB
+SRR33394918,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,55,1.018181818181818,1472362,0,1,XDR-TB
+SRR33394918,eis,Rv2416c,c.-10G>A,c.-10G>A,upstream_gene_variant,amikacin,Not assoc w R,50,1.0,2715342,0,1,XDR-TB
+SRR33394921,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,89,1.0,1472362,0,1,MDR-TB
+SRR33394921,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,89,1.0,1472362,0,1,MDR-TB
+SRR33394922,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,64,1.0,1472362,0,1,Pre-XDR-TB
+SRR33394922,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,64,1.0,1472362,0,1,Pre-XDR-TB
+SRR33394923,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,182,1.0,1472359,0,1,XDR-TB
+SRR33394923,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,182,1.0,1472359,0,1,XDR-TB
+SRR33394923,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,182,1.0,1472359,0,1,XDR-TB
+SRR33394924,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,81,1.0,1472362,0,1,MDR-TB
+SRR33394924,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,81,1.0,1472362,0,1,MDR-TB
+SRR33394926,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,94,1.0,1472359,0,1,XDR-TB
+SRR33394926,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,94,1.0,1472359,0,1,XDR-TB
+SRR33394926,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,94,1.0,1472359,0,1,XDR-TB
+SRR33394928,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,57,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394928,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,57,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394928,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,57,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394929,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,101,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394929,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,101,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394929,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,101,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394930,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,100,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394930,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,100,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394930,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,100,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394935,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,185,0.9945945945945946,1472359,0,1,Pre-XDR-TB
+SRR33394935,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,185,0.9945945945945946,1472359,0,1,Pre-XDR-TB
+SRR33394935,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,185,0.9945945945945946,1472359,0,1,Pre-XDR-TB
+SRR33394937,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,92,1.0,1472359,0,1,XDR-TB
+SRR33394937,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,92,1.0,1472359,0,1,XDR-TB
+SRR33394937,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,92,1.0,1472359,0,1,XDR-TB
+SRR33394941,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,162,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394941,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,162,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394941,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,162,1.0,1472359,0,1,Pre-XDR-TB
+SRR33394947,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,77,1.0,1472359,0,1,XDR-TB
+SRR33394947,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,77,1.0,1472359,0,1,XDR-TB
+SRR33394947,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,77,1.0,1472359,0,1,XDR-TB
+SRR33394948,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,98,1.0,1472359,0,1,XDR-TB
+SRR33394948,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,98,1.0,1472359,0,1,XDR-TB
+SRR33394948,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,98,1.0,1472359,0,1,XDR-TB
+SRR33394950,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,76,1.0,1472359,0,1,XDR-TB
+SRR33394950,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,76,1.0,1472359,0,1,XDR-TB
+SRR33394950,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,76,1.0,1472359,0,1,XDR-TB
+SRR33394955,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,103,1.0,1472359,0,1,XDR-TB
+SRR33394955,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,103,1.0,1472359,0,1,XDR-TB
+SRR33394955,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,103,1.0,1472359,0,1,XDR-TB
+SRR34965693,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,19,1.0,1472362,0,1,MDR-TB
+SRR34965693,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,19,1.0,1472362,0,1,MDR-TB
+SRR34965696,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,21,1.0,1472362,0,1,MDR-TB
+SRR34965696,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,21,1.0,1472362,0,1,MDR-TB
+SRR34965697,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,397,1.0,1472362,0,1,Pre-XDR-TB
+SRR34965697,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,397,1.0,1472362,0,1,Pre-XDR-TB
+SRR34965699,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,706,1.0,1472362,0,1,MDR-TB
+SRR34965699,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,706,1.0,1472362,0,1,MDR-TB
+SRR34965699,eis,Rv2416c,c.-10G>A,c.-10G>A,upstream_gene_variant,amikacin,Not assoc w R,931,1.0,2715342,0,1,MDR-TB
+SRR34965700,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,86,0.3372093023255814,1472362,0,1,MDR-TB
+SRR34965700,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,86,0.3372093023255814,1472362,0,1,MDR-TB
+SRR34965704,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,58,1.0,1472362,0,1,MDR-TB
+SRR34965704,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,58,1.0,1472362,0,1,MDR-TB
+SRR34965709,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,73,1.0,1472359,0,1,XDR-TB
+SRR34965709,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,73,1.0,1472359,0,1,XDR-TB
+SRR34965709,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,73,1.0,1472359,0,1,XDR-TB
+SRR34965710,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,341,1.002932551319648,1472362,0,1,MDR-TB
+SRR34965710,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,341,1.002932551319648,1472362,0,1,MDR-TB
+SRR34965712,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,44,0.9318181818181818,1472362,0,1,Pre-XDR-TB
+SRR34965712,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,44,0.9318181818181818,1472362,0,1,Pre-XDR-TB
+SRR34965718,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,amikacin,Not assoc w R,11,1.0,1472362,0,1,MDR-TB
+SRR34965718,rrs,EBG00000313325,n.517C>T,n.517C>T,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,11,1.0,1472362,0,1,MDR-TB
+SRR36942301,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,103,1.0097087378640777,1472359,0,0,Other
+SRR36942301,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,103,1.0097087378640777,1472359,0,0,Other
+SRR36942301,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,103,1.0097087378640777,1472359,0,0,Other
+SRR37031317,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,116,1.0,1472359,0,1,Pre-XDR-TB
+SRR37031317,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,116,1.0,1472359,0,1,Pre-XDR-TB
+SRR37031317,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,116,1.0,1472359,0,1,Pre-XDR-TB
+SRR37540762,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,117,0.9914529914529916,1472359,0,1,MDR-TB
+SRR37540762,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,117,0.9914529914529916,1472359,0,1,MDR-TB
+SRR37540762,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,117,0.9914529914529916,1472359,0,1,MDR-TB
+SRR37540763,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,amikacin,Not assoc w R,160,1.0,1472359,0,1,MDR-TB
+SRR37540763,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,capreomycin,Not assoc w R,160,1.0,1472359,0,1,MDR-TB
+SRR37540763,rrs,EBG00000313325,n.514A>C,n.514A>C,non_coding_transcript_exon_variant,kanamycin,Not assoc w R - Interim,160,1.0,1472359,0,1,MDR-TB
