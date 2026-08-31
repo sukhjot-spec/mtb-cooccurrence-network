@@ -1,66 +1,45 @@
 #!/usr/bin/env python3
 """
 Phase A - Data assembly and cleaning for:
-"Comparative Genomic and Network Analysis of Co-occurring Drug-Resistance
-Mutations Across African Mycobacterium tuberculosis Lineages"
+"Comparative Genomic and Network Analysis of Co-occurring Drug-Resistance Mutations Across African Mycobacterium tuberculosis Lineages"
 
-Splits the raw TB-Profiler dr_variants.csv (14,734 rows) into four explicit,
-documented buckets. No bucket is inferred implicitly by a confidence
-.isin() filter without the others being accounted for - every row in the
-raw file ends up in exactly one of the four outputs, and this is asserted
+Splits the raw TB-Profiler dr_variants.csv (14,734 rows) into four explicit, documented buckets. No bucket is inferred implicitly by a confidence
+.isin() filter without the others being accounted for - every row in the raw file ends up in exactly one of the four outputs, and this is asserted
 at the end.
 
-Authoritative sample-level metadata file: y_labels.csv (NOT labels.csv -
-they differ in 41 rows, both in main_lineage/sub_lineage, where
-y_labels.csv has "Unknown" and labels.csv has NaN for the same samples;
-y_labels.csv is the standardized source everywhere in this pipeline).
+Authoritative sample-level metadata file: y_labels.csv (NOT labels.csv - they differ in 41 rows, both in main_lineage/sub_lineage, where 
+y_labels.csv has "Unknown" and labels.csv has NaN for the same samples; y_labels.csv is the standardized source everywhere in this pipeline).
 
 Buckets produced:
   1. core_set            - confidence in {"Assoc w R", "Assoc w R - Interim"}
-                             Primary analysis set for Objectives 1-4.
-                             Verified duplicate-free; drop_duplicates() is
-                             still applied defensively and asserted to be a
-                             no-op.
-  2. sensitivity_set     - confidence == "Uncertain significance", correctly
-                             deduplicated with drop_duplicates() (default
-                             keep='first'). Raw = 3,633 rows in exactly 1,163
-                             duplicate PAIRS (no larger clusters) + 1,307
-                             singletons -> 2,470 unique rows retained.
-                             NEVER filtered with duplicated(keep=False),
-                             which would incorrectly drop 2,326 rows instead
-                             of the true 1,163 excess copies and undercount
+                             Primary analysis set for Objectives 1-4. Verified duplicate-free; drop_duplicates() is
+                             still applied defensively and asserted to be a no-op.
+  2. sensitivity_set     - confidence == "Uncertain significance", correctly deduplicated with drop_duplicates() (default
+                             keep='first'). Raw = 3,633 rows in exactly 1,163 duplicate PAIRS (no larger clusters) + 1,307
+                             singletons -> 2,470 unique rows retained. NEVER filtered with duplicated(keep=False),
+                             which would incorrectly drop 2,326 rows instead of the true 1,163 excess copies and undercount
                              this set by 47%.
-  3. excluded_set        - confidence in {"Not assoc w R",
-                             "Not assoc w R - Interim"}. Excluded per
-                             TB-Profiler's own annotation, not analyzed
-                             further, but kept on disk (not silently
+  3. excluded_set        - confidence in {"Not assoc w R", "Not assoc w R - Interim"}. Excluded per
+                             TB-Profiler's own annotation, not analyzed further, but kept on disk (not silently
                              dropped) for auditability.
-  4. unlabeled_confidence - confidence is NaN (257 rows, 1.7% of raw file).
-                             Genuinely unlabeled by TB-Profiler, not the same
-                             as "Uncertain significance". Kept as its own
-                             bucket rather than merged into any other set or
+  4. unlabeled_confidence - confidence is NaN (257 rows, 1.7% of raw file). Genuinely unlabeled by TB-Profiler, not the same
+                             as "Uncertain significance". Kept as its own bucket rather than merged into any other set or
                              silently dropped by a confidence .isin() filter.
 
 Also produces:
-  - core_set_with_metadata.csv: core_set joined to y_labels.csv sample-level
-    fields (drtype, main_lineage, sub_lineage, MDR/pre_XDR/XDR, per-drug
+  - core_set_with_metadata.csv: core_set joined to y_labels.csv sample-level fields (drtype, main_lineage, sub_lineage, MDR/pre_XDR/XDR, per-drug
     phenotype + binary columns) for downstream Objective 1-4 use.
-  - lineage_stratification_flags.csv: one row per sample_id in y_labels.csv,
-    flagging the 49 samples (41 "Unknown" + 8 compound e.g.
-    "lineage2;lineage4") that are NOT a single clean lineage label. Does NOT
-    silently drop or default these - Objective 4 must decide explicitly
-    whether to exclude them from per-lineage stratification or bucket them
-    separately; that decision is deferred to the Objective 4 script, not
+  - lineage_stratification_flags.csv: one row per sample_id in y_labels.csv, flagging the 49 samples (41 "Unknown" + 8 compound e.g.
+    "lineage2;lineage4") that are NOT a single clean lineage label. Does NOT silently drop or default these - Objective 4 must decide explicitly
+    whether to exclude them from per-lineage stratification or bucket them separately; that decision is deferred to the Objective 4 script, not
     made here.
 
 Inputs expected (all in -indir, untouched raw data):
     dr_variants.csv     TB-Profiler per-sample resistance mutation calls
-    y_labels.csv         authoritative sample-level metadata (lineage, drtype,
-                          MDR/pre_XDR/XDR, per-drug phenotype)
+    y_labels.csv         authoritative sample-level metadata (lineage, drtype, MDR/pre_XDR/XDR, per-drug phenotype)
     sample_ids.txt        full 1,858-sample cohort list
 
-Outputs written to -outdir (results/phaseA_cleaning/, NOT data/ - data/
-holds only untouched raw input; every step's output lives under results/
+Outputs written to -outdir (results/phaseA_cleaning/, NOT data/ - data/ holds only untouched raw input; every step's output lives under results/
 in its own step-specific subfolder):
     core_set.csv
     sensitivity_set.csv
@@ -110,8 +89,7 @@ def split_buckets(df: pd.DataFrame):
         f"{len(df)} raw rows. There is a confidence value not accounted for."
     )
 
-    # Core set: verify it's already duplicate-free, then dedup defensively
-    # (should be a no-op - assert that it is).
+    # Core set: verify it's already duplicate-free, then dedup defensively (should be a no-op - assert that it is).
     core_deduped = core.drop_duplicates()
     assert len(core_deduped) == len(core), (
         "Core set was assumed duplicate-free but drop_duplicates() removed "
@@ -169,8 +147,7 @@ def load_metadata(indir):
 
 def flag_lineage_stratification(y: pd.DataFrame) -> pd.DataFrame:
     """
-    Flags samples that are NOT usable as a single, clean lineage label for
-    Objective 4 stratification. Does not make the exclude/bucket decision -
+    Flags samples that are NOT usable as a single, clean lineage label for Objective 4 stratification. Does not make the exclude/bucket decision -
     that belongs in the Objective 4 script - only surfaces it explicitly.
     """
     is_unknown = y["main_lineage"] == "Unknown"
