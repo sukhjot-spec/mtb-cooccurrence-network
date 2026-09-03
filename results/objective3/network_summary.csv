@@ -1,0 +1,2 @@
+n_nodes_total_from_obj1,n_nodes_connected,n_nodes_isolated,n_edges,n_connected_components,giant_component_size,n_louvain_communities,modularity,louvain_seed_used
+240,130,110,441,12,105,19,0.4478,42
