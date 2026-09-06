@@ -1,82 +1,49 @@
 #!/usr/bin/env python3
 """
-Objective 3 - Construct and characterise networks of co-occurring drug-
-resistance mutations in African Mycobacterium tuberculosis isolates.
+Objective 3 - Construct and characterise networks of co-occurring drug- resistance mutations in African Mycobacterium tuberculosis isolates.
 
 FORWARD-COMPATIBILITY NOTE:
-This script reads mutation_id and the node list from Objective 1
-(mutation_node_table.csv, unchanged) and its edge list from Objective 2
-(cooccurrence_significant_edges.csv). Objective 4 will re-run this same
-construction and metrics logic once per lineage stratum on that lineage's
-own significant-edges file - the functions here (build_graph,
-compute_node_metrics) are written to accept any edges dataframe with the
-same column names for exactly that reason. Do not hardcode anything
-specific to the pooled cohort inside those functions.
+This script reads mutation_id and the node list from Objective 1 (mutation_node_table.csv, unchanged) and its edge list from Objective 2
+(cooccurrence_significant_edges.csv). Objective 4 will re-run this same construction and metrics logic once per lineage stratum on that lineage's
+own significant-edges file - the functions here (build_graph, compute_node_metrics) are written to accept any edges dataframe with the
+same column names for exactly that reason. Do not hardcode anything specific to the pooled cohort inside those functions.
 
 *** EDGE WEIGHT DESIGN DECISION - READ BEFORE USING odds_ratio DIRECTLY ***
-Checked directly against the real data before choosing a weight: 136 of
-441 significant edges (31%) have odds_ratio == inf (Objective 2's own
-report already explains why - perfect or near-perfect separation is
-common and expected for real co-occurrence signal, not an error). Most
-graph algorithms - centrality measures, community detection - require
-finite numeric edge weights, so odds_ratio cannot be used as the weight
-directly without either dropping 31% of edges or silently producing NaN/
-inf propagation through the algorithms. Instead, -log10(padj_BH) is used
-as the edge weight for every algorithm in this script: it is always
-finite (checked directly - zero edges have padj_BH exactly 0 in this
-cohort's results), strictly positive, and monotonically increasing with
-statistical significance, so stronger evidence still produces a larger
-weight. The raw odds_ratio and padj_BH are both kept as edge attributes
-on every edge for reporting and interpretation - only the numeric
+Checked directly against the real data before choosing a weight: 136 of 441 significant edges (31%) have odds_ratio == inf (Objective 2's own
+report already explains why - perfect or near-perfect separation is common and expected for real co-occurrence signal, not an error). Most
+graph algorithms - centrality measures, community detection - require finite numeric edge weights, so odds_ratio cannot be used as the weight
+directly without either dropping 31% of edges or silently producing NaN/ inf propagation through the algorithms. Instead, -log10(padj_BH) is used
+as the edge weight for every algorithm in this script: it is always finite (checked directly - zero edges have padj_BH exactly 0 in this
+cohort's results), strictly positive, and monotonically increasing with statistical significance, so stronger evidence still produces a larger
+weight. The raw odds_ratio and padj_BH are both kept as edge attributes on every edge for reporting and interpretation - only the numeric
 algorithms use the transformed weight.
 
-*** EIGENVECTOR CENTRALITY IS ONLY MEANINGFUL WITHIN THE GIANT COMPONENT -
-    CONFIRMED DIRECTLY, NOT ASSUMED ***
-The pooled cohort's significant-edges graph has 130 nodes in 12 connected
-components: one giant component of 105 nodes, and 11 small satellite
-components of 2-3 nodes each. Running eigenvector centrality on the graph
-as a whole was checked directly: every one of the 25 satellite-component
-nodes receives a value 8 to 10 orders of magnitude smaller than the giant
-component's nodes (~1e-10 to 1e-12, versus ~0.2-0.3) - this is numerical
-noise from power iteration on a disconnected system, not a real, if small,
-centrality ranking among those 25 nodes. This script therefore computes
-eigenvector centrality ONLY within the giant component's own induced
-subgraph, and records it as null/blank for every node outside that
-component, rather than reporting a number that looks meaningful but isn't.
-Betweenness centrality, degree, and clustering coefficient do not have
-this problem (they are well-defined for disconnected graphs) and are
-reported for every node without qualification.
+*** EIGENVECTOR CENTRALITY IS ONLY MEANINGFUL WITHIN THE GIANT COMPONENT - CONFIRMED DIRECTLY, NOT ASSUMED ***
+The pooled cohort's significant-edges graph has 130 nodes in 12 connected components: one giant component of 105 nodes, and 11 small satellite
+components of 2-3 nodes each. Running eigenvector centrality on the graph as a whole was checked directly: every one of the 25 satellite-component
+nodes receives a value 8 to 10 orders of magnitude smaller than the giant component's nodes (~1e-10 to 1e-12, versus ~0.2-0.3) - this is numerical
+noise from power iteration on a disconnected system, not a real, if small, centrality ranking among those 25 nodes. This script therefore computes
+eigenvector centrality ONLY within the giant component's own induced subgraph, and records it as null/blank for every node outside that
+component, rather than reporting a number that looks meaningful but isn't. Betweenness centrality, degree, and clustering coefficient do not have
+this problem (they are well-defined for disconnected graphs) and are reported for every node without qualification.
 
 ISOLATED NODES (ZERO SIGNIFICANT CO-OCCURRENCE) ARE KEPT, NOT DROPPED:
-Only 130 of Objective 1's 240 mutation nodes appear in at least one
-significant co-occurrence edge. The other 110 are not included in the
-NetworkX graph object itself (a graph algorithm has nothing meaningful to
-compute for a node with no edges), but are written to their own explicit
-output file (isolated_nodes.csv) rather than silently disappearing between
-Objective 1's node count and this objective's network size.
+Only 130 of Objective 1's 240 mutation nodes appear in at least one significant co-occurrence edge. The other 110 are not included in the
+NetworkX graph object itself (a graph algorithm has nothing meaningful to compute for a node with no edges), but are written to their own explicit
+output file (isolated_nodes.csv) rather than silently disappearing between Objective 1's node count and this objective's network size.
 
 COMMUNITY DETECTION REPRODUCIBILITY:
-Louvain community detection has a stochastic tie-breaking step. A fixed
-seed (42) is passed explicitly on every run so the partition is identical
-across runs and across machines - checked directly: this cohort's real
-graph happens to produce an identical partition and modularity score
-(0.448) even across different seeds, but the seed is still pinned
-explicitly rather than relying on that stability holding for every future
-re-run (e.g. Objective 4's per-lineage graphs, which are smaller and could
-plausibly be less stable).
+Louvain community detection has a stochastic tie-breaking step. A fixed seed (42) is passed explicitly on every run so the partition is identical
+across runs and across machines - checked directly: this cohort's real graph happens to produce an identical partition and modularity score
+(0.448) even across different seeds, but the seed is still pinned explicitly rather than relying on that stability holding for every future
+re-run (e.g. Objective 4's per-lineage graphs, which are smaller and could plausibly be less stable).
 
 WHAT THIS SCRIPT DOES, IN ORDER:
   1. Loads Objective 1's node table and Objective 2's significant edges.
-  2. Builds the NetworkX graph, identifies isolated nodes, and separates
-     connected components.
-  3. Computes degree, betweenness centrality, and clustering coefficient
-     for every connected node; eigenvector centrality for giant-component
-     nodes only.
-  4. Runs Louvain community detection (weighted, fixed seed) and reports
-     the resulting modularity score.
-  5. Writes a node table, an edge table, an isolated-nodes table, a
-     summary table, and a .graphml file for reuse in Gephi or a
-     visualization notebook.
+  2. Builds the NetworkX graph, identifies isolated nodes, and separates connected components.
+  3. Computes degree, betweenness centrality, and clustering coefficient for every connected node; eigenvector centrality for giant-component nodes only.
+  4. Runs Louvain community detection (weighted, fixed seed) and reports the resulting modularity score.
+  5. Writes a node table, an edge table, an isolated-nodes table, a summary table, and a .graphml file for reuse in Gephi or a visualization notebook.
 
 Inputs expected:
     -obj1_dir/mutation_node_table.csv                Objective 1 output
@@ -106,7 +73,7 @@ def load_inputs(obj1_dir, obj2_dir):
     node = pd.read_csv(os.path.join(obj1_dir, "mutation_node_table.csv"))
     assert len(node) == NODE_COUNT_EXPECTED, (
         f"mutation_node_table.csv row count changed: expected "
-        f"{NODE_COUNT_EXPECTED}, got {len(node)}. Stop -- re-verify "
+        f"{NODE_COUNT_EXPECTED}, got {len(node)}. Stop - re-verify "
         f"Objective 1's output before trusting anything downstream. This "
         f"file is always Objective 1's cohort-wide node table, unchanged "
         f"regardless of whether obj2_dir holds a pooled or lineage-"
@@ -115,18 +82,14 @@ def load_inputs(obj1_dir, obj2_dir):
     )
 
     edges = pd.read_csv(os.path.join(obj2_dir, "cooccurrence_significant_edges.csv"))
-    # NOT a fixed expected count: this script is reused for both the pooled
-    # cohort-wide run (441 edges) and Objective 4's per-lineage reruns (each
-    # producing a different, smaller edge count from a smaller population --
-    # 300 / 113 / 23 / 55 for lineage4 / lineage2 / lineage3 / lineage1
-    # respectively, all confirmed valid during development). A fixed
-    # expected-count assertion here was tried first and correctly broke
-    # every lineage run immediately, which is exactly why it was replaced
-    # with this generic sanity range instead of silently loosened.
+    # NOT a fixed expected count: this script is reused for both the pooled cohort-wide run (441 edges) and Objective 4's per-lineage reruns (each
+    # producing a different, smaller edge count from a smaller population - 300 / 113 / 23 / 55 for lineage4 / lineage2 / lineage3 / lineage1
+    # respectively, all confirmed valid during development). A fixed expected-count assertion here was tried first and correctly broke
+    # every lineage run immediately, which is exactly why it was replaced with this generic sanity range instead of silently loosened.
     assert 0 < len(edges) <= MAX_POSSIBLE_EDGES, (
         f"cooccurrence_significant_edges.csv has {len(edges)} rows, outside "
         f"the sane range (0, {MAX_POSSIBLE_EDGES}]. Either no significant "
-        f"pairs were found for this population (0 rows -- check whether "
+        f"pairs were found for this population (0 rows - check whether "
         f"this stratum is simply too small) or something is structurally "
         f"wrong with the file (more rows than 240 nodes could ever produce)."
     )
@@ -134,7 +97,7 @@ def load_inputs(obj1_dir, obj2_dir):
 
     n_zero_padj = (edges["padj_BH"] <= 0).sum()
     assert n_zero_padj == 0, (
-        f"{n_zero_padj} edges have padj_BH <= 0 -- this breaks the "
+        f"{n_zero_padj} edges have padj_BH <= 0 - this breaks the "
         f"-log10(padj_BH) edge weight (verified 0 during development). "
         f"Investigate before trusting the resulting weights."
     )
@@ -266,7 +229,7 @@ def main():
     isolated_df = node[node["mutation_id"].isin(isolated_ids)].copy()
 
     print("Attaching node attributes to the graph itself (so network.graphml is "
-          "self-contained -- usable directly in Gephi or elsewhere without also "
+          "self-contained - usable directly in Gephi or elsewhere without also "
           "needing network_nodes.csv alongside it) ...")
     for _, row in node_df.iterrows():
         mid = row["mutation_id"]
@@ -277,10 +240,8 @@ def main():
         G.nodes[mid]["n_samples_cohort_wide"] = int(row["n_samples_cohort_wide"])
         G.nodes[mid]["degree"] = int(row["degree"])
         G.nodes[mid]["betweenness_centrality"] = float(row["betweenness_centrality"])
-        # graphml has no native null -- eigenvector_centrality is legitimately
-        # undefined (not zero) for the 25 non-giant-component nodes (see module
-        # docstring), so it is omitted from the graph attributes entirely for
-        # those nodes rather than written as a misleading 0.0 or a string "None"
+        # graphml has no native null - eigenvector_centrality is legitimately undefined (not zero) for the 25 non-giant-component nodes (see module
+        # docstring), so it is omitted from the graph attributes entirely for those nodes rather than written as a misleading 0.0 or a string "None"
         # that would silently become a real float on the next read.
         if pd.notna(row["eigenvector_centrality"]):
             G.nodes[mid]["eigenvector_centrality"] = float(row["eigenvector_centrality"])
