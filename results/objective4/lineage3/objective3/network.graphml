@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d18" for="edge" attr.name="pct_dominant_lineage" attr.type="double" />
+  <key id="d17" for="edge" attr.name="dominant_lineage" attr.type="string" />
+  <key id="d16" for="edge" attr.name="pair_class" attr.type="string" />
+  <key id="d15" for="edge" attr.name="padj_BH" attr.type="double" />
+  <key id="d14" for="edge" attr.name="odds_ratio" attr.type="double" />
+  <key id="d13" for="edge" attr.name="weight" attr.type="float" />
+  <key id="d12" for="node" attr.name="louvain_community_id" attr.type="long" />
+  <key id="d11" for="node" attr.name="is_giant_component" attr.type="boolean" />
+  <key id="d10" for="node" attr.name="connected_component_size" attr.type="long" />
+  <key id="d9" for="node" attr.name="connected_component_id" attr.type="long" />
+  <key id="d8" for="node" attr.name="clustering_coefficient" attr.type="double" />
+  <key id="d7" for="node" attr.name="eigenvector_centrality" attr.type="double" />
+  <key id="d6" for="node" attr.name="betweenness_centrality" attr.type="double" />
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="n_samples_cohort_wide" attr.type="long" />
+  <key id="d3" for="node" attr.name="n_drugs" attr.type="long" />
+  <key id="d2" for="node" attr.name="drugs" attr.type="string" />
+  <key id="d1" for="node" attr.name="change" attr.type="string" />
+  <key id="d0" for="node" attr.name="gene" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="gid|c.107delT">
+      <data key="d0">gid</data>
+      <data key="d1">c.107delT</data>
+      <data key="d2">streptomycin</data>
+      <data key="d3">1</data>
+      <data key="d4">9</data>
+      <data key="d5">5</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.4964776229308883</data>
+      <data key="d8">0.5022519676848968</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="pncA|p.Trp68Cys">
+      <data key="d0">pncA</data>
+      <data key="d1">p.Trp68Cys</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">10</data>
+      <data key="d5">5</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.4964776229308883</data>
+      <data key="d8">0.5022519676848967</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="embB|p.Met306Ile">
+      <data key="d0">embB</data>
+      <data key="d1">p.Met306Ile</data>
+      <data key="d2">ethambutol</data>
+      <data key="d3">1</data>
+      <data key="d4">284</data>
+      <data key="d5">5</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.4976664804421767</data>
+      <data key="d8">0.5022005077865164</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="katG|p.Ser315Thr">
+      <data key="d0">katG</data>
+      <data key="d1">p.Ser315Thr</data>
+      <data key="d2">isoniazid</data>
+      <data key="d3">1</data>
+      <data key="d4">760</data>
+      <data key="d5">6</data>
+      <data key="d6">0.06593406593406594</data>
+      <data key="d7">0.4126434534565942</data>
+      <data key="d8">0.2935623161828214</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="rpoB|p.Ser450Leu">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Ser450Leu</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">426</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.08133670921942215</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="rpoB|p.Leu430Pro">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Leu430Pro</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">43</data>
+      <data key="d5">4</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.21585722049453923</data>
+      <data key="d8">0.4233343193393355</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="gyrA|p.Asp94Gly">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Asp94Gly</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">162</data>
+      <data key="d5">4</data>
+      <data key="d6">0.09890109890109891</data>
+      <data key="d7">0.18937633039857027</data>
+      <data key="d8">0.38885028997380866</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="katG|p.Ser315Asn">
+      <data key="d0">katG</data>
+      <data key="d1">p.Ser315Asn</data>
+      <data key="d2">isoniazid</data>
+      <data key="d3">1</data>
+      <data key="d4">10</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2</data>
+      <data key="d10">2</data>
+      <data key="d11">False</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="rpoB|p.Asp435Val">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Asp435Val</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">124</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2</data>
+      <data key="d10">2</data>
+      <data key="d11">False</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="mmpR5|c.139dupG">
+      <data key="d0">mmpR5</data>
+      <data key="d1">c.139dupG</data>
+      <data key="d2">bedaquiline;clofazimine</data>
+      <data key="d3">2</data>
+      <data key="d4">12</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.23087838189311163</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="rpoB|p.Asp435Tyr">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Asp435Tyr</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">20</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.23087838189311163</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="katG|c.1416_1417dupAG">
+      <data key="d0">katG</data>
+      <data key="d1">c.1416_1417dupAG</data>
+      <data key="d2">isoniazid</data>
+      <data key="d3">1</data>
+      <data key="d4">2</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3</data>
+      <data key="d10">2</data>
+      <data key="d11">False</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="rpoB|p.His445Asn">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.His445Asn</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">18</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3</data>
+      <data key="d10">2</data>
+      <data key="d11">False</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="gyrA|p.Asp94Tyr">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Asp94Tyr</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">16</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.23087838189311163</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="pncA|c.390_391dupGG">
+      <data key="d0">pncA</data>
+      <data key="d1">c.390_391dupGG</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">2</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.23087838189311163</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">2</data>
+    </node>
+    <edge source="gid|c.107delT" target="pncA|p.Trp68Cys">
+      <data key="d13">10.093447908655177</data>
+      <data key="d14">inf</data>
+      <data key="d15">8.064029193540414e-11</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gid|c.107delT" target="embB|p.Met306Ile">
+      <data key="d13">9.57056916337484</data>
+      <data key="d14">inf</data>
+      <data key="d15">2.6880097311801376e-10</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gid|c.107delT" target="katG|p.Ser315Thr">
+      <data key="d13">6.485814200195485</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.267275828249458e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gid|c.107delT" target="rpoB|p.Leu430Pro">
+      <data key="d13">3.489511902188685</data>
+      <data key="d14">133.75</data>
+      <data key="d15">0.0003239575439968</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gid|c.107delT" target="gyrA|p.Asp94Gly">
+      <data key="d13">3.025371772711349</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0009432530698213</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Trp68Cys" target="embB|p.Met306Ile">
+      <data key="d13">9.57056916337484</data>
+      <data key="d14">inf</data>
+      <data key="d15">2.6880097311801376e-10</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Trp68Cys" target="katG|p.Ser315Thr">
+      <data key="d13">6.485814200195485</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.267275828249458e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Trp68Cys" target="rpoB|p.Leu430Pro">
+      <data key="d13">3.489511902188685</data>
+      <data key="d14">133.75</data>
+      <data key="d15">0.0003239575439968</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Trp68Cys" target="gyrA|p.Asp94Gly">
+      <data key="d13">3.025371772711349</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0009432530698213</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="katG|p.Ser315Thr">
+      <data key="d13">7.44005670963481</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.6303064758327314e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="rpoB|p.Leu430Pro">
+      <data key="d13">3.237582712148619</data>
+      <data key="d14">106.0</data>
+      <data key="d15">0.0005786517726053</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="gyrA|p.Asp94Gly">
+      <data key="d13">2.8382851293541886</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0014511585689559</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="rpoB|p.Ser450Leu">
+      <data key="d13">5.469577001324799</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.3917434788494364e-06</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="rpoB|p.Leu430Pro">
+      <data key="d13">2.2140084872481607</data>
+      <data key="d14">41.25</data>
+      <data key="d15">0.0061093008561984</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="gyrA|p.Asp94Gly">
+      <data key="d13">2.031711950742342</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0092958273547612</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Asn" target="rpoB|p.Asp435Val">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="mmpR5|c.139dupG" target="rpoB|p.Asp435Tyr">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="mmpR5|c.139dupG" target="gyrA|p.Asp94Tyr">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="mmpR5|c.139dupG" target="pncA|c.390_391dupGG">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Tyr" target="gyrA|p.Asp94Tyr">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Tyr" target="pncA|c.390_391dupGG">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|c.1416_1417dupAG" target="rpoB|p.His445Asn">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gyrA|p.Asp94Tyr" target="pncA|c.390_391dupGG">
+      <data key="d13">2.3303589208727193</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0046734874321081</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage3</data>
+      <data key="d18">100.0</data>
+    </edge>
+  </graph>
+</graphml>

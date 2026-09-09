@@ -1,0 +1,5 @@
+lineage,n_nodes_total_from_obj1,n_nodes_connected,n_edges,density,n_connected_components,giant_component_size,n_louvain_communities,modularity
+lineage4,240,101,300,0.0594,8,84,17,0.3468
+lineage2,240,33,113,0.214,4,23,7,0.2496
+lineage3,240,15,23,0.219,4,7,4,0.3252
+lineage1,240,18,55,0.3595,2,15,4,0.1997

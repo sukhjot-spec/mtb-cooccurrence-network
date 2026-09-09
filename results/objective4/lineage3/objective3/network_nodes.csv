@@ -1,0 +1,16 @@
+mutation_id,gene,change,drugs,n_drugs,n_samples_cohort_wide,degree,betweenness_centrality,eigenvector_centrality,clustering_coefficient,connected_component_id,connected_component_size,is_giant_component,louvain_community_id
+katG|p.Ser315Thr,katG,p.Ser315Thr,isoniazid,1,760,6,0.06593406593406594,0.4126434534565942,0.2935623161828214,0,7,True,0
+gid|c.107delT,gid,c.107delT,streptomycin,1,9,5,0.0,0.4964776229308883,0.5022519676848968,0,7,True,0
+embB|p.Met306Ile,embB,p.Met306Ile,ethambutol,1,284,5,0.0,0.4976664804421767,0.5022005077865164,0,7,True,0
+pncA|p.Trp68Cys,pncA,p.Trp68Cys,pyrazinamide,1,10,5,0.0,0.4964776229308883,0.5022519676848967,0,7,True,0
+gyrA|p.Asp94Gly,gyrA,p.Asp94Gly,levofloxacin;moxifloxacin,2,162,4,0.09890109890109891,0.18937633039857027,0.38885028997380866,0,7,True,0
+rpoB|p.Leu430Pro,rpoB,p.Leu430Pro,rifampicin;rifapentine,2,43,4,0.0,0.21585722049453923,0.4233343193393355,0,7,True,0
+gyrA|p.Asp94Tyr,gyrA,p.Asp94Tyr,levofloxacin;moxifloxacin,2,16,3,0.0,,0.23087838189311163,1,4,False,2
+rpoB|p.Asp435Tyr,rpoB,p.Asp435Tyr,rifampicin;rifapentine,2,20,3,0.0,,0.23087838189311163,1,4,False,2
+mmpR5|c.139dupG,mmpR5,c.139dupG,bedaquiline;clofazimine,2,12,3,0.0,,0.23087838189311163,1,4,False,2
+pncA|c.390_391dupGG,pncA,c.390_391dupGG,pyrazinamide,1,2,3,0.0,,0.23087838189311163,1,4,False,2
+katG|c.1416_1417dupAG,katG,c.1416_1417dupAG,isoniazid,1,2,1,0.0,,0.0,3,2,False,3
+katG|p.Ser315Asn,katG,p.Ser315Asn,isoniazid,1,10,1,0.0,,0.0,2,2,False,1
+rpoB|p.Asp435Val,rpoB,p.Asp435Val,rifampicin;rifapentine,2,124,1,0.0,,0.0,2,2,False,1
+rpoB|p.His445Asn,rpoB,p.His445Asn,rifampicin;rifapentine,2,18,1,0.0,,0.0,3,2,False,3
+rpoB|p.Ser450Leu,rpoB,p.Ser450Leu,rifampicin;rifapentine,2,426,1,0.0,0.08133670921942215,0.0,0,7,True,0

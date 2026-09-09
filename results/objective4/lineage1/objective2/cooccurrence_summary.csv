@@ -1,0 +1,4 @@
+class,n_tested,n_significant
+within_class,56,5
+cross_class,379,50
+ALL (lineage-suspect subset),55,39

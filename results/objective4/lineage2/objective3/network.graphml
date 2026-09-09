@@ -1,0 +1,1414 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d19" for="edge" attr.name="dominant_lineage" attr.type="double" />
+  <key id="d18" for="edge" attr.name="pct_dominant_lineage" attr.type="double" />
+  <key id="d17" for="edge" attr.name="dominant_lineage" attr.type="string" />
+  <key id="d16" for="edge" attr.name="pair_class" attr.type="string" />
+  <key id="d15" for="edge" attr.name="padj_BH" attr.type="double" />
+  <key id="d14" for="edge" attr.name="odds_ratio" attr.type="double" />
+  <key id="d13" for="edge" attr.name="weight" attr.type="float" />
+  <key id="d12" for="node" attr.name="louvain_community_id" attr.type="long" />
+  <key id="d11" for="node" attr.name="is_giant_component" attr.type="boolean" />
+  <key id="d10" for="node" attr.name="connected_component_size" attr.type="long" />
+  <key id="d9" for="node" attr.name="connected_component_id" attr.type="long" />
+  <key id="d8" for="node" attr.name="clustering_coefficient" attr.type="double" />
+  <key id="d7" for="node" attr.name="eigenvector_centrality" attr.type="double" />
+  <key id="d6" for="node" attr.name="betweenness_centrality" attr.type="double" />
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="n_samples_cohort_wide" attr.type="long" />
+  <key id="d3" for="node" attr.name="n_drugs" attr.type="long" />
+  <key id="d2" for="node" attr.name="drugs" attr.type="string" />
+  <key id="d1" for="node" attr.name="change" attr.type="string" />
+  <key id="d0" for="node" attr.name="gene" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="embB|p.Met306Ile">
+      <data key="d0">embB</data>
+      <data key="d1">p.Met306Ile</data>
+      <data key="d2">ethambutol</data>
+      <data key="d3">1</data>
+      <data key="d4">284</data>
+      <data key="d5">17</data>
+      <data key="d6">0.05846774193548387</data>
+      <data key="d7">0.4145964562584773</data>
+      <data key="d8">0.12589020687850686</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="rrs|n.514A&gt;C">
+      <data key="d0">rrs</data>
+      <data key="d1">n.514A&gt;C</data>
+      <data key="d2">streptomycin</data>
+      <data key="d3">1</data>
+      <data key="d4">177</data>
+      <data key="d5">15</data>
+      <data key="d6">0.010080645161290322</data>
+      <data key="d7">0.403177107154261</data>
+      <data key="d8">0.1530056546737385</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="katG|p.Ser315Thr">
+      <data key="d0">katG</data>
+      <data key="d1">p.Ser315Thr</data>
+      <data key="d2">isoniazid</data>
+      <data key="d3">1</data>
+      <data key="d4">760</data>
+      <data key="d5">16</data>
+      <data key="d6">0.038306451612903226</data>
+      <data key="d7">0.3536766485065439</data>
+      <data key="d8">0.1254613494599842</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="embB|p.Gln497Lys">
+      <data key="d0">embB</data>
+      <data key="d1">p.Gln497Lys</data>
+      <data key="d2">ethambutol</data>
+      <data key="d3">1</data>
+      <data key="d4">84</data>
+      <data key="d5">11</data>
+      <data key="d6">0.010080645161290322</data>
+      <data key="d7">0.24945653230063616</data>
+      <data key="d8">0.18677356607142656</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="pncA|p.Cys14Arg">
+      <data key="d0">pncA</data>
+      <data key="d1">p.Cys14Arg</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">89</data>
+      <data key="d5">12</data>
+      <data key="d6">0.056451612903225805</data>
+      <data key="d7">0.26860802446176485</data>
+      <data key="d8">0.16621123394082019</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="pncA|c.517dupG">
+      <data key="d0">pncA</data>
+      <data key="d1">c.517dupG</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">72</data>
+      <data key="d5">11</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.31698818765368225</data>
+      <data key="d8">0.215072748026154</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="rpoB|p.Asp435Val">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Asp435Val</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">124</data>
+      <data key="d5">11</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.29492175331609105</data>
+      <data key="d8">0.2048770972017118</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="rrs|n.1401A&gt;G">
+      <data key="d0">rrs</data>
+      <data key="d1">n.1401A&gt;G</data>
+      <data key="d2">amikacin;capreomycin;kanamycin</data>
+      <data key="d3">3</data>
+      <data key="d4">320</data>
+      <data key="d5">12</data>
+      <data key="d6">0.01814516129032258</data>
+      <data key="d7">0.2552873411173543</data>
+      <data key="d8">0.1585630942805618</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="inhA|c.-779G&gt;T">
+      <data key="d0">inhA</data>
+      <data key="d1">c.-779G&gt;T</data>
+      <data key="d2">ethionamide;isoniazid;prothionamide</data>
+      <data key="d3">3</data>
+      <data key="d4">108</data>
+      <data key="d5">14</data>
+      <data key="d6">0.0907258064516129</data>
+      <data key="d7">0.3117986288557987</data>
+      <data key="d8">0.11560278599659377</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="rpoB|p.Ser450Leu">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Ser450Leu</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">426</data>
+      <data key="d5">14</data>
+      <data key="d6">0.05846774193548387</data>
+      <data key="d7">0.15890049076304952</data>
+      <data key="d8">0.09162284242477854</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="gyrA|p.Ser91Pro">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Ser91Pro</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">60</data>
+      <data key="d5">9</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.12697903380307013</data>
+      <data key="d8">0.16209694988717843</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="tlyA|c.585_588delTGGG">
+      <data key="d0">tlyA</data>
+      <data key="d1">c.585_588delTGGG</data>
+      <data key="d2">capreomycin</data>
+      <data key="d3">1</data>
+      <data key="d4">30</data>
+      <data key="d5">9</data>
+      <data key="d6">0.016129032258064516</data>
+      <data key="d7">0.10404005131669314</data>
+      <data key="d8">0.1492185089893656</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="gyrA|p.Ala90Val">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Ala90Val</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">321</data>
+      <data key="d5">8</data>
+      <data key="d6">0.14717741935483872</data>
+      <data key="d7">0.03184247286928067</data>
+      <data key="d8">0.057352550667264655</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="embB|p.Met306Val">
+      <data key="d0">embB</data>
+      <data key="d1">p.Met306Val</data>
+      <data key="d2">ethambutol</data>
+      <data key="d3">1</data>
+      <data key="d4">377</data>
+      <data key="d5">6</data>
+      <data key="d6">0.0625</data>
+      <data key="d7">0.011580087745916297</data>
+      <data key="d8">0.028827993845113236</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="inhA|c.-777C&gt;T">
+      <data key="d0">inhA</data>
+      <data key="d1">c.-777C&gt;T</data>
+      <data key="d2">ethionamide;isoniazid;prothionamide</data>
+      <data key="d3">3</data>
+      <data key="d4">155</data>
+      <data key="d5">7</data>
+      <data key="d6">0.02217741935483871</data>
+      <data key="d7">0.022618215154337137</data>
+      <data key="d8">0.047020199472336585</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="gyrA|p.Asp94His">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Asp94His</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">21</data>
+      <data key="d5">7</data>
+      <data key="d6">0.016129032258064516</data>
+      <data key="d7">0.04103667153648774</data>
+      <data key="d8">0.11237676312407816</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">2</data>
+    </node>
+    <node id="gyrA|p.Asp94Gly">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Asp94Gly</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">162</data>
+      <data key="d5">6</data>
+      <data key="d6">0.10483870967741934</data>
+      <data key="d7">0.011024184605775216</data>
+      <data key="d8">0.04151142830049354</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="mmpR5|c.424dupC">
+      <data key="d0">mmpR5</data>
+      <data key="d1">c.424dupC</data>
+      <data key="d2">bedaquiline;clofazimine</data>
+      <data key="d3">2</data>
+      <data key="d4">16</data>
+      <data key="d5">4</data>
+      <data key="d6">0.03225806451612903</data>
+      <data key="d7">0.006079073270566448</data>
+      <data key="d8">0.052633062916850486</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">1</data>
+    </node>
+    <node id="rpsL|p.Lys43Arg">
+      <data key="d0">rpsL</data>
+      <data key="d1">p.Lys43Arg</data>
+      <data key="d2">streptomycin</data>
+      <data key="d3">1</data>
+      <data key="d4">143</data>
+      <data key="d5">6</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.011267292701422717</data>
+      <data key="d8">0.022898940524606552</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="pncA|p.Ser104Arg">
+      <data key="d0">pncA</data>
+      <data key="d1">p.Ser104Arg</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">8</data>
+      <data key="d5">3</data>
+      <data key="d6">0.04233870967741935</data>
+      <data key="d7">0.0005359600386643347</data>
+      <data key="d8">0.01294670889855777</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="pncA|p.Asp8Asn">
+      <data key="d0">pncA</data>
+      <data key="d1">p.Asp8Asn</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">5</data>
+      <data key="d5">2</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0005114949247318713</data>
+      <data key="d8">0.06655107364338715</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="rpoB|p.Leu430Pro">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Leu430Pro</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">43</data>
+      <data key="d5">5</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.020362615956059146</data>
+      <data key="d8">0.07644806318185082</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">0</data>
+    </node>
+    <node id="pncA|p.Ala146Thr">
+      <data key="d0">pncA</data>
+      <data key="d1">p.Ala146Thr</data>
+      <data key="d2">pyrazinamide</data>
+      <data key="d3">1</data>
+      <data key="d4">5</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.026199218353633504</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">4</data>
+    </node>
+    <node id="rpoB|p.Ala451Val">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Ala451Val</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">3</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.025069492770388228</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">4</data>
+    </node>
+    <node id="gyrA|p.Asp94Tyr">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Asp94Tyr</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">16</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.025069492770388228</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">4</data>
+    </node>
+    <node id="rpoB|p.His445Asn">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.His445Asn</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">18</data>
+      <data key="d5">3</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.023116556596511944</data>
+      <data key="d9">1</data>
+      <data key="d10">4</data>
+      <data key="d11">False</data>
+      <data key="d12">4</data>
+    </node>
+    <node id="mmpR5|p.Tyr145*">
+      <data key="d0">mmpR5</data>
+      <data key="d1">p.Tyr145*</data>
+      <data key="d2">bedaquiline;clofazimine</data>
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d7">3.5824287390347804e-06</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0</data>
+      <data key="d10">23</data>
+      <data key="d11">True</data>
+      <data key="d12">3</data>
+    </node>
+    <node id="inhA|c.-154G&gt;A">
+      <data key="d0">inhA</data>
+      <data key="d1">c.-154G&gt;A</data>
+      <data key="d2">ethionamide;isoniazid;prothionamide</data>
+      <data key="d3">3</data>
+      <data key="d4">48</data>
+      <data key="d5">2</data>
+      <data key="d6">0.0020161290322580645</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2</data>
+      <data key="d10">3</data>
+      <data key="d11">False</data>
+      <data key="d12">5</data>
+    </node>
+    <node id="rpoB|p.Asn437Ser">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Asn437Ser</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2</data>
+      <data key="d10">3</data>
+      <data key="d11">False</data>
+      <data key="d12">5</data>
+    </node>
+    <node id="embB|p.Gly406Asp">
+      <data key="d0">embB</data>
+      <data key="d1">p.Gly406Asp</data>
+      <data key="d2">ethambutol</data>
+      <data key="d3">1</data>
+      <data key="d4">9</data>
+      <data key="d5">2</data>
+      <data key="d6">0.0020161290322580645</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3</data>
+      <data key="d10">3</data>
+      <data key="d11">False</data>
+      <data key="d12">6</data>
+    </node>
+    <node id="gyrA|p.Asp94Ala">
+      <data key="d0">gyrA</data>
+      <data key="d1">p.Asp94Ala</data>
+      <data key="d2">levofloxacin;moxifloxacin</data>
+      <data key="d3">2</data>
+      <data key="d4">25</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3</data>
+      <data key="d10">3</data>
+      <data key="d11">False</data>
+      <data key="d12">6</data>
+    </node>
+    <node id="katG|p.Ser315Asn">
+      <data key="d0">katG</data>
+      <data key="d1">p.Ser315Asn</data>
+      <data key="d2">isoniazid</data>
+      <data key="d3">1</data>
+      <data key="d4">10</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3</data>
+      <data key="d10">3</data>
+      <data key="d11">False</data>
+      <data key="d12">6</data>
+    </node>
+    <node id="rpoB|p.Leu452Pro">
+      <data key="d0">rpoB</data>
+      <data key="d1">p.Leu452Pro</data>
+      <data key="d2">rifampicin;rifapentine</data>
+      <data key="d3">2</data>
+      <data key="d4">246</data>
+      <data key="d5">1</data>
+      <data key="d6">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2</data>
+      <data key="d10">3</data>
+      <data key="d11">False</data>
+      <data key="d12">5</data>
+    </node>
+    <edge source="embB|p.Met306Ile" target="rrs|n.514A&gt;C">
+      <data key="d13">78.71482916391442</data>
+      <data key="d14">618.8333333333334</data>
+      <data key="d15">1.92828328245175e-79</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="katG|p.Ser315Thr">
+      <data key="d13">68.9050297790411</data>
+      <data key="d14">1066.1538461538462</data>
+      <data key="d15">1.244429279853158e-69</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="inhA|c.-779G&gt;T">
+      <data key="d13">41.517015649551304</data>
+      <data key="d14">323.741935483871</data>
+      <data key="d15">3.0407754511115494e-42</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="pncA|p.Cys14Arg">
+      <data key="d13">33.90075880794738</data>
+      <data key="d14">inf</data>
+      <data key="d15">1.256727712792999e-34</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="embB|p.Gln497Lys">
+      <data key="d13">29.09313947130807</data>
+      <data key="d14">183.91764705882352</data>
+      <data key="d15">8.069758327365378e-30</data>
+      <data key="d16">within_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="pncA|c.517dupG">
+      <data key="d13">25.47800783916489</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.326535487287542e-26</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="rpoB|p.Asp435Val">
+      <data key="d13">21.254315643883142</data>
+      <data key="d14">46.42361111111112</data>
+      <data key="d15">5.567809351833806e-22</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="rrs|n.1401A&gt;G">
+      <data key="d13">18.395806802905724</data>
+      <data key="d14">17.358024691358025</data>
+      <data key="d15">4.0196958835766976e-19</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="gyrA|p.Ser91Pro">
+      <data key="d13">13.554759922022587</data>
+      <data key="d14">73.98333333333333</data>
+      <data key="d15">2.7876617621144177e-14</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="tlyA|c.585_588delTGGG">
+      <data key="d13">8.68493037319064</data>
+      <data key="d14">inf</data>
+      <data key="d15">2.0657113075164954e-09</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="rpoB|p.Ser450Leu">
+      <data key="d13">6.7932443806700835</data>
+      <data key="d14">3.888441633122484</data>
+      <data key="d15">1.6097395680902358e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="inhA|c.-777C&gt;T">
+      <data key="d13">4.769614236318898</data>
+      <data key="d14">0.0359307359307359</data>
+      <data key="d15">1.699752793823111e-05</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="embB|p.Met306Val">
+      <data key="d13">4.323165300177141</data>
+      <data key="d14">0.0</data>
+      <data key="d15">4.7515433935759045e-05</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="rpoB|p.Leu430Pro">
+      <data key="d13">4.018308634783232</data>
+      <data key="d14">0.0</data>
+      <data key="d15">9.587190681327131e-05</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="gyrA|p.Ala90Val">
+      <data key="d13">3.0423507759990436</data>
+      <data key="d14">4.444829979181124</data>
+      <data key="d15">0.0009070875872098</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="gyrA|p.Asp94His">
+      <data key="d13">2.6737450493347397</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0021196050749238</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Ile" target="gyrA|p.Asp94Gly">
+      <data key="d13">1.7591431497085592</data>
+      <data key="d14">2.9239766081871346</data>
+      <data key="d15">0.0174123284339973</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="katG|p.Ser315Thr">
+      <data key="d13">57.910490058796654</data>
+      <data key="d14">162.975</data>
+      <data key="d15">1.2288813159233049e-58</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="inhA|c.-779G&gt;T">
+      <data key="d13">40.27536991948998</data>
+      <data key="d14">163.78688524590163</data>
+      <data key="d15">5.304324447296145e-41</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="pncA|p.Cys14Arg">
+      <data key="d13">34.518665922842985</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.029242750051032e-35</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="embB|p.Gln497Lys">
+      <data key="d13">29.6491751708273</data>
+      <data key="d14">190.3012048192771</data>
+      <data key="d15">2.2429770460790125e-30</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="pncA|c.517dupG">
+      <data key="d13">25.936299877895046</data>
+      <data key="d14">inf</data>
+      <data key="d15">1.1579775030924273e-26</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="rpoB|p.Asp435Val">
+      <data key="d13">21.701732840426732</data>
+      <data key="d14">47.90780141843972</data>
+      <data key="d15">1.9873170547061488e-22</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="rrs|n.1401A&gt;G">
+      <data key="d13">18.769982177333812</data>
+      <data key="d14">17.944444444444443</data>
+      <data key="d15">1.6983133467637618e-19</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="gyrA|p.Ser91Pro">
+      <data key="d13">13.811600811307184</data>
+      <data key="d14">76.01694915254237</data>
+      <data key="d15">1.5431181829501147e-14</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="tlyA|c.585_588delTGGG">
+      <data key="d13">7.270043767285771</data>
+      <data key="d14">41.888888888888886</data>
+      <data key="d15">5.369776781607058e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="rpoB|p.Ser450Leu">
+      <data key="d13">6.765405600414324</data>
+      <data key="d14">3.843607305936073</data>
+      <data key="d15">1.7163047308594505e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="rpsL|p.Lys43Arg">
+      <data key="d13">5.185676289151373</data>
+      <data key="d14">0.0</data>
+      <data key="d15">6.521142805337666e-06</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="rpoB|p.Leu430Pro">
+      <data key="d13">4.003721813902388</data>
+      <data key="d14">0.0</data>
+      <data key="d15">9.914668227954454e-05</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="gyrA|p.Asp94His">
+      <data key="d13">2.739722537297078</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0018208638032466</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.514A&gt;C" target="inhA|c.-777C&gt;T">
+      <data key="d13">1.7612031722429835</data>
+      <data key="d14">0.171</data>
+      <data key="d15">0.0173299307687657</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="inhA|c.-779G&gt;T">
+      <data key="d13">30.27268357802438</data>
+      <data key="d14">97.73295454545456</data>
+      <data key="d15">5.337236187644689e-31</data>
+      <data key="d16">within_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="pncA|p.Cys14Arg">
+      <data key="d13">26.58508616577273</data>
+      <data key="d14">inf</data>
+      <data key="d15">2.599643732218542e-27</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="embB|p.Gln497Lys">
+      <data key="d13">22.530972448999353</data>
+      <data key="d14">123.7090909090909</data>
+      <data key="d15">2.944608429484383e-23</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="pncA|c.517dupG">
+      <data key="d13">20.07637081475418</data>
+      <data key="d14">inf</data>
+      <data key="d15">8.387435341879479e-21</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="rrs|n.1401A&gt;G">
+      <data key="d13">16.167854761067037</data>
+      <data key="d14">19.16220238095238</data>
+      <data key="d15">6.794308132786841e-17</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="rpoB|p.Asp435Val">
+      <data key="d13">15.979594075398648</data>
+      <data key="d14">32.01101928374656</data>
+      <data key="d15">1.0481077314449048e-16</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="gyrA|p.Ser91Pro">
+      <data key="d13">8.72537633841866</data>
+      <data key="d14">25.73630136986301</data>
+      <data key="d15">1.8820175180714902e-09</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="rpoB|p.Ser450Leu">
+      <data key="d13">8.280946429934712</data>
+      <data key="d14">4.576683087027915</data>
+      <data key="d15">5.2366502649133015e-09</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="inhA|c.-777C&gt;T">
+      <data key="d13">6.555856580810065</data>
+      <data key="d14">0.0265037593984962</data>
+      <data key="d15">2.780631377648757e-07</data>
+      <data key="d16">within_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="tlyA|c.585_588delTGGG">
+      <data key="d13">5.1588482317169975</data>
+      <data key="d14">30.074074074074076</data>
+      <data key="d15">6.93668172519156e-06</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="gyrA|p.Asp94Gly">
+      <data key="d13">3.323872783895814</data>
+      <data key="d14">4.27025462962963</data>
+      <data key="d15">0.0004743809233713</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="rpoB|p.Leu430Pro">
+      <data key="d13">3.0829559585439594</data>
+      <data key="d14">0.0788359788359788</data>
+      <data key="d15">0.0008261217216725</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="gyrA|p.Ala90Val">
+      <data key="d13">1.8827017611250847</data>
+      <data key="d14">3.692903225806452</data>
+      <data key="d15">0.013100812736828</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="katG|p.Ser315Thr" target="gyrA|p.Asp94His">
+      <data key="d13">1.8382898486909642</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0145114279977375</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="pncA|p.Cys14Arg">
+      <data key="d13">68.18347378956503</data>
+      <data key="d14">3672.0</data>
+      <data key="d15">6.554298409822585e-69</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="rpoB|p.Ser450Leu">
+      <data key="d13">35.58495923042021</data>
+      <data key="d14">148.47457627118644</data>
+      <data key="d15">2.600403665711101e-36</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="gyrA|p.Ser91Pro">
+      <data key="d13">20.069005683594245</data>
+      <data key="d14">36.87074829931973</data>
+      <data key="d15">8.530889496041008e-21</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="tlyA|c.585_588delTGGG">
+      <data key="d13">16.939016055261437</data>
+      <data key="d14">151.56603773584905</data>
+      <data key="d15">1.1507578462450545e-17</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="rpoB|p.Asp435Val">
+      <data key="d13">7.037468122364783</data>
+      <data key="d14">0.0</data>
+      <data key="d15">9.173432668021045e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="pncA|c.517dupG">
+      <data key="d13">6.765405600414324</data>
+      <data key="d14">0.0</data>
+      <data key="d15">1.7163047308594505e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="rrs|n.1401A&gt;G">
+      <data key="d13">3.370661846001093</data>
+      <data key="d14">0.1607142857142857</data>
+      <data key="d15">0.0004259299251725</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gln497Lys" target="mmpR5|c.424dupC">
+      <data key="d13">2.1913887763564017</data>
+      <data key="d14">9.51388888888889</data>
+      <data key="d15">0.006435928692471</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="rpoB|p.Ser450Leu">
+      <data key="d13">41.09028570856718</data>
+      <data key="d14">356.9811320754717</data>
+      <data key="d15">8.122959565983934e-42</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="gyrA|p.Ser91Pro">
+      <data key="d13">18.769982177333812</data>
+      <data key="d14">32.340425531914896</data>
+      <data key="d15">1.6983133467637618e-19</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="tlyA|c.585_588delTGGG">
+      <data key="d13">16.066366882365838</data>
+      <data key="d14">136.0</data>
+      <data key="d15">8.582881523264892e-17</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="rpoB|p.Asp435Val">
+      <data key="d13">7.595804617287836</data>
+      <data key="d14">0.0</data>
+      <data key="d15">2.5362694042436812e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="pncA|c.517dupG">
+      <data key="d13">7.340799986846209</data>
+      <data key="d14">0.0</data>
+      <data key="d15">4.562469908955327e-08</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="rrs|n.1401A&gt;G">
+      <data key="d13">3.1853804391894083</data>
+      <data key="d14">0.1819034224097515</data>
+      <data key="d15">0.0006525586649808</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="mmpR5|c.424dupC">
+      <data key="d13">1.9614889664735473</data>
+      <data key="d14">8.733766233766234</data>
+      <data key="d15">0.0109272538821703</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Cys14Arg" target="gyrA|p.Asp94Gly">
+      <data key="d13">1.4329300439984265</data>
+      <data key="d14">2.834440227703985</data>
+      <data key="d15">0.0369037038138377</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|c.517dupG" target="rpoB|p.Asp435Val">
+      <data key="d13">67.80422246971155</data>
+      <data key="d14">inf</data>
+      <data key="d15">1.5695585834428146e-68</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|c.517dupG" target="rrs|n.1401A&gt;G">
+      <data key="d13">56.519177932543556</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.0256735410841434e-57</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|c.517dupG" target="inhA|c.-779G&gt;T">
+      <data key="d13">44.957667540958745</data>
+      <data key="d14">inf</data>
+      <data key="d15">1.1023828775028529e-45</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|c.517dupG" target="rpoB|p.Ser450Leu">
+      <data key="d13">14.788434935167661</data>
+      <data key="d14">0.0</data>
+      <data key="d15">1.6276651497957278e-15</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="pncA|c.517dupG" target="gyrA|p.Asp94His">
+      <data key="d13">7.610796475222518</data>
+      <data key="d14">inf</data>
+      <data key="d15">2.450211222959605e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|c.517dupG" target="gyrA|p.Ala90Val">
+      <data key="d13">5.223490657329408</data>
+      <data key="d14">6.355731225296442</data>
+      <data key="d15">5.977359032208962e-06</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Val" target="rrs|n.1401A&gt;G">
+      <data key="d13">51.86079616432481</data>
+      <data key="d14">423.1111111111111</data>
+      <data key="d15">1.3778560124786405e-52</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Val" target="inhA|c.-779G&gt;T">
+      <data key="d13">40.467861081499976</data>
+      <data key="d14">168.0</data>
+      <data key="d15">3.405170940529841e-41</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Val" target="rpoB|p.Ser450Leu">
+      <data key="d13">15.450062670291691</data>
+      <data key="d14">0.0</data>
+      <data key="d15">3.5476219205005994e-16</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Val" target="gyrA|p.Asp94His">
+      <data key="d13">7.377121289146729</data>
+      <data key="d14">inf</data>
+      <data key="d15">4.1964177066586045e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Asp435Val" target="gyrA|p.Ala90Val">
+      <data key="d13">4.812420869379312</data>
+      <data key="d14">5.899814471243043</data>
+      <data key="d15">1.54020713391637e-05</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.1401A&gt;G" target="inhA|c.-779G&gt;T">
+      <data key="d13">29.876892597718065</data>
+      <data key="d14">32.0</data>
+      <data key="d15">1.3277227668139576e-30</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.1401A&gt;G" target="gyrA|p.Ala90Val">
+      <data key="d13">10.992119665968064</data>
+      <data key="d14">12.789940828402369</data>
+      <data key="d15">1.0183107629525263e-11</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.1401A&gt;G" target="gyrA|p.Asp94His">
+      <data key="d13">6.5137846549994</data>
+      <data key="d14">inf</data>
+      <data key="d15">3.0634820853163684e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.1401A&gt;G" target="rpoB|p.Ser450Leu">
+      <data key="d13">6.058852770383789</data>
+      <data key="d14">0.1707136824324324</data>
+      <data key="d15">8.732673634635208e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rrs|n.1401A&gt;G" target="tlyA|c.585_588delTGGG">
+      <data key="d13">1.6392202378050795</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.0229498452893263</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="tlyA|c.585_588delTGGG">
+      <data key="d13">15.332714016817246</data>
+      <data key="d14">inf</data>
+      <data key="d15">4.648212595508215e-16</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="gyrA|p.Ser91Pro">
+      <data key="d13">13.615272926059175</data>
+      <data key="d14">18.244318181818183</data>
+      <data key="d15">2.4250856062854248e-14</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="gyrA|p.Asp94His">
+      <data key="d13">5.251382332869309</data>
+      <data key="d14">inf</data>
+      <data key="d15">5.605542725707579e-06</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="inhA|c.-777C&gt;T">
+      <data key="d13">2.4863090086279365</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.003263555414849</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="rpsL|p.Lys43Arg">
+      <data key="d13">2.014983390073366</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.0096608782705557</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="gyrA|p.Ala90Val">
+      <data key="d13">1.6264832559580078</data>
+      <data key="d14">3.138047138047138</data>
+      <data key="d15">0.0236328851299713</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="rpoB|p.Leu430Pro">
+      <data key="d13">1.5996931041568367</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.0251366209290046</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="inhA|c.-779G&gt;T" target="embB|p.Met306Val">
+      <data key="d13">1.5996931041568367</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.0251366209290046</data>
+      <data key="d16">cross_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="rpoB|p.Ser450Leu" target="gyrA|p.Ser91Pro">
+      <data key="d13">10.565198179993766</data>
+      <data key="d14">14.991496598639456</data>
+      <data key="d15">2.721459151301652e-11</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Ser450Leu" target="tlyA|c.585_588delTGGG">
+      <data key="d13">9.436614103813367</data>
+      <data key="d14">58.0</data>
+      <data key="d15">3.659197884529459e-10</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Ser450Leu" target="rpoB|p.Leu430Pro">
+      <data key="d13">2.9308694455673763</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.0011725477953204</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="rpoB|p.Ser450Leu" target="embB|p.Met306Val">
+      <data key="d13">2.884113294218048</data>
+      <data key="d14">8.589583333333334</data>
+      <data key="d15">0.0013058301923245</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Ser450Leu" target="mmpR5|c.424dupC">
+      <data key="d13">2.7401791761490752</data>
+      <data key="d14">22.6984126984127</data>
+      <data key="d15">0.0018189502625126</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Ser450Leu" target="gyrA|p.Asp94Gly">
+      <data key="d13">1.9173613001282044</data>
+      <data key="d14">3.0088644997889404</data>
+      <data key="d15">0.0120959142636874</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gyrA|p.Ser91Pro" target="tlyA|c.585_588delTGGG">
+      <data key="d13">28.8433165921007</data>
+      <data key="d14">inf</data>
+      <data key="d15">1.4344433712309578e-29</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gyrA|p.Ser91Pro" target="gyrA|p.Asp94Gly">
+      <data key="d13">1.9505707344382777</data>
+      <data key="d14">0.0</data>
+      <data key="d15">0.0112054490581267</data>
+      <data key="d16">within_class</data>
+      <data key="d19">nan</data>
+      <data key="d18">nan</data>
+    </edge>
+    <edge source="gyrA|p.Ala90Val" target="pncA|p.Ser104Arg">
+      <data key="d13">2.863458022028135</data>
+      <data key="d14">46.95</data>
+      <data key="d15">0.0013694367488092</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gyrA|p.Ala90Val" target="rpsL|p.Lys43Arg">
+      <data key="d13">2.283714244709224</data>
+      <data key="d14">6.2647619047619045</data>
+      <data key="d15">0.0052033825393939</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Val" target="inhA|c.-777C&gt;T">
+      <data key="d13">9.005563127003875</data>
+      <data key="d14">33.39259259259259</data>
+      <data key="d15">9.8727212008343e-10</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Val" target="rpsL|p.Lys43Arg">
+      <data key="d13">6.984713645493164</data>
+      <data key="d14">25.16883116883117</data>
+      <data key="d15">1.0358249185465554e-07</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Met306Val" target="pncA|p.Asp8Asn">
+      <data key="d13">4.269037961932368</data>
+      <data key="d14">inf</data>
+      <data key="d15">5.382227340989263e-05</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-777C&gt;T" target="pncA|p.Asp8Asn">
+      <data key="d13">3.739331591091951</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0001822503658974</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-777C&gt;T" target="rpsL|p.Lys43Arg">
+      <data key="d13">3.4087937571279503</data>
+      <data key="d14">10.361842105263158</data>
+      <data key="d15">0.0003901272108912</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gyrA|p.Asp94Gly" target="mmpR5|c.424dupC">
+      <data key="d13">7.599697810886345</data>
+      <data key="d14">84.78260869565217</data>
+      <data key="d15">2.5136348508701624e-08</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpsL|p.Lys43Arg" target="pncA|p.Ser104Arg">
+      <data key="d13">4.369975516534709</data>
+      <data key="d14">99.9</data>
+      <data key="d15">4.266035680116998e-05</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Ser104Arg" target="mmpR5|p.Tyr145*">
+      <data key="d13">1.7512826620388977</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0177303511934021</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Ala146Thr" target="rpoB|p.Ala451Val">
+      <data key="d13">2.5322632024414102</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0029358698404659</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Ala146Thr" target="gyrA|p.Asp94Tyr">
+      <data key="d13">2.5322632024414102</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0029358698404659</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="pncA|p.Ala146Thr" target="rpoB|p.His445Asn">
+      <data key="d13">1.8800366016477141</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0131814564265817</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Ala451Val" target="gyrA|p.Asp94Tyr">
+      <data key="d13">2.075256598923916</data>
+      <data key="d14">712.0</data>
+      <data key="d15">0.0084089815785218</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="rpoB|p.Ala451Val" target="rpoB|p.His445Asn">
+      <data key="d13">1.4602593266951953</data>
+      <data key="d14">176.5</data>
+      <data key="d15">0.0346529868129283</data>
+      <data key="d16">within_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="gyrA|p.Asp94Tyr" target="rpoB|p.His445Asn">
+      <data key="d13">1.4602593266951953</data>
+      <data key="d14">176.5</data>
+      <data key="d15">0.0346529868129283</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-154G&gt;A" target="rpoB|p.Asn437Ser">
+      <data key="d13">1.6347770929674597</data>
+      <data key="d14">inf</data>
+      <data key="d15">0.0231858438682951</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="inhA|c.-154G&gt;A" target="rpoB|p.Leu452Pro">
+      <data key="d13">1.399623448082859</data>
+      <data key="d14">29.571428571428573</data>
+      <data key="d15">0.0398452496206186</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gly406Asp" target="gyrA|p.Asp94Ala">
+      <data key="d13">1.6195973366474457</data>
+      <data key="d14">236.0</data>
+      <data key="d15">0.0240105806824301</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+    <edge source="embB|p.Gly406Asp" target="katG|p.Ser315Asn">
+      <data key="d13">1.6195973366474457</data>
+      <data key="d14">236.0</data>
+      <data key="d15">0.0240105806824301</data>
+      <data key="d16">cross_class</data>
+      <data key="d17">lineage2</data>
+      <data key="d18">100.0</data>
+    </edge>
+  </graph>
+</graphml>
